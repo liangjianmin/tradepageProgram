@@ -1,5 +1,9 @@
 <template>
-	<view class="h-index">home</view>
+	<view class="h-index">
+		<view class="h-head">
+			
+		</view>
+	</view>
 </template>
 
 <script>

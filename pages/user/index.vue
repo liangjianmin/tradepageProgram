@@ -6,18 +6,10 @@
 import { API } from '@/util/api.js';
 export default {
 	data() {
-		return {
-
-		};
+		return {};
 	},
-	onLoad(options) {
-
-	},
-	methods: {
-
-
-		}
-	}
+	onLoad(options) {},
+	methods: {}
 };
 </script>
 
