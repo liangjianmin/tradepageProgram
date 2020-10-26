@@ -1,7 +1,13 @@
 <template>
 	<view class="h-index">
-		<view class="h-head">
-			
+		<view class="h-head column verCenter">
+			<view class="top row bothSide">
+				<image src="../../static/logo.png" mode="aspectFill"></image>
+				<view class="row verCenter">
+					<text class="iconfont iconweikefu"></text>
+					<text class="tel">客服：0755-23485853</text>
+				</view>
+			</view>
 		</view>
 	</view>
 </template>

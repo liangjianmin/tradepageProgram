@@ -1,17 +1,16 @@
 {
 	"pages": [{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "外贸护法",
-				"enablePullDownRefresh": true
-			}
-		}, {
-			"path": "pages/user/index",
-			"style": {
-				"navigationBarTitleText": "个人中心"
-			}
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "外贸护法",
+			"enablePullDownRefresh": true
 		}
-	],
+	}, {
+		"path": "pages/user/index",
+		"style": {
+			"navigationBarTitleText": "个人中心"
+		}
+	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "外贸护法",
@@ -26,13 +25,13 @@
 		"list": [{
 				"pagePath": "pages/index/index",
 				"iconPath": "static/i1.png",
-				"selectedIconPath": "static/i1.png",
+				"selectedIconPath": "static/i1s.png",
 				"text": "资信查询"
 			},
 			{
 				"pagePath": "pages/user/index",
 				"iconPath": "static/i2.png",
-				"selectedIconPath": "static/i2.png",
+				"selectedIconPath": "static/i2s.png",
 				"text": "个人中心"
 			}
 		]
