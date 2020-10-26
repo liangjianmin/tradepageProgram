@@ -1,0 +1,809 @@
+@charset "UTF-8";
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view {
+  box-sizing: border-box;
+}
+image {
+  vertical-align: middle;
+}
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.boxsiz {
+  box-sizing: border-box;
+}
+/* 两侧对齐 */
+.bothSide {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+/* 平均分布 */
+.avarage {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+/* 水平居中 */
+.rowCenter {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+/* 垂直居中 */
+.verCenter {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.boxFlex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.boxFlexs {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+}
+.arrow {
+  position: absolute;
+  top: 66rpx;
+  left: 20rpx;
+  color: #999999;
+  font-size: 42rpx;
+  z-index: 1;
+}
+.singer-vocalConcert {
+  width: 100%;
+  overflow-x: hidden;
+}
+.singer-vocalConcert .share {
+  position: absolute;
+  top: 152rpx;
+  right: 42rpx;
+  width: 61rpx;
+  height: 61rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3e62a4e551a.png") no-repeat center;
+  background-size: cover;
+  z-index: 1111;
+}
+.singer-vocalConcert .top {
+  padding-top: 120rpx;
+  padding-bottom: 100rpx;
+  background: -webkit-linear-gradient(top, #29004e 0%, #3f006a 100%);
+  background: linear-gradient(180deg, #29004e 0%, #3f006a 100%);
+}
+.singer-vocalConcert .top .bg1 {
+  width: 235rpx;
+  height: 60rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cfad823c6e.png") no-repeat center;
+  background-size: cover;
+  margin: 0 auto 27rpx;
+}
+.singer-vocalConcert .top .bg2 {
+  width: 556rpx;
+  height: 60rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cfb25aa092.png") no-repeat center;
+  background-size: cover;
+  margin: 0 auto 19rpx;
+}
+.singer-vocalConcert .top .t1 {
+  color: #ffffff;
+  font-size: 27rpx;
+  display: block;
+  text-align: center;
+}
+.singer-vocalConcert .top .bg-list {
+  margin-top: 26rpx;
+}
+.singer-vocalConcert .top .bg-list .bg-a {
+  width: 124rpx;
+  height: 44rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cfbe7315c3.png") no-repeat center;
+  background-size: cover;
+  margin-right: 32rpx;
+}
+.singer-vocalConcert .top .bg-list .bg-b {
+  width: 124rpx;
+  height: 44rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cfc1e171f8.png") no-repeat center;
+  background-size: cover;
+  margin-right: 21rpx;
+}
+.singer-vocalConcert .top .bg-list .bg-c {
+  width: 124rpx;
+  height: 44rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cfc2f74035.png") no-repeat center;
+  background-size: cover;
+}
+.singer-vocalConcert .top .wrap {
+  margin: 0 29rpx;
+  padding-bottom: 33rpx;
+  background: -webkit-linear-gradient(bottom, #8268c4 0%, transparent 100%);
+  background: linear-gradient(0deg, #8268c4 0%, transparent 100%);
+  border-radius: 28rpx;
+}
+.singer-vocalConcert .top .wrap .btn {
+  width: 353rpx;
+  height: 79rpx;
+  line-height: 79rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cfcd010218.png") no-repeat center;
+  background-size: cover;
+  font-size: 27rpx;
+  color: #ffffff;
+  text-align: center;
+  margin: 36rpx auto 0;
+}
+.singer-vocalConcert .top .wrap .media {
+  width: 605rpx;
+  height: 344rpx;
+  border-radius: 20rpx;
+  margin: 30rpx auto 0;
+}
+.singer-vocalConcert .top .wrap .media .swiper-box {
+  height: 344rpx;
+}
+.singer-vocalConcert .top .wrap .media .swiper-box video {
+  z-index: 10000;
+  width: 605rpx;
+  height: 344rpx;
+  border-radius: 20rpx;
+}
+.singer-vocalConcert .top .wrap .media .swiper-box image {
+  width: 605rpx;
+  height: 344rpx;
+  border-radius: 20rpx;
+}
+.singer-vocalConcert .top .wrap .appointment .time-box {
+  margin-bottom: 20rpx;
+}
+.singer-vocalConcert .top .wrap .appointment .time-box .time {
+  width: 56rpx;
+  height: 74rpx;
+  line-height: 74rpx;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 10rpx;
+  margin-right: 10rpx;
+  font-size: 56rpx;
+  color: #333333;
+}
+.singer-vocalConcert .top .wrap .appointment .time-box .text {
+  font-size: 26rpx;
+  color: #ffffff;
+  margin-right: 10rpx;
+}
+.singer-vocalConcert .top .wrap .appointment .appointment-text {
+  font-size: 28rpx;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+}
+.singer-vocalConcert .top .wrap .appointment .appointment-btn {
+  width: 530rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  background: #8268c3;
+  border-radius: 48rpx;
+  margin: 30rpx auto 20rpx;
+  font-size: 45rpx;
+  color: #ffffff;
+}
+.singer-vocalConcert .section {
+  position: relative;
+  top: -57rpx;
+  border-radius: 28rpx;
+  background: #ffffff;
+}
+.singer-vocalConcert .section .section-title {
+  border-bottom: 18rpx solid #f6f6f6;
+  padding: 0 43rpx 30rpx 43rpx;
+}
+.singer-vocalConcert .section .section-title .t1 {
+  line-height: 83rpx;
+  color: #000000;
+  font-size: 34rpx;
+  margin: 0 44rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.singer-vocalConcert .section .section-title .t2 {
+  padding-top: 28rpx;
+  color: #000000;
+  font-size: 34rpx;
+  margin: 0 43rpx;
+}
+.singer-vocalConcert .section .section-one {
+  padding-top: 40rpx;
+  border-bottom: 18rpx solid #f6f6f6;
+}
+.singer-vocalConcert .section .section-one .nav {
+  border-bottom: 1px solid #f1f1f1;
+}
+.singer-vocalConcert .section .section-one .nav text {
+  position: relative;
+  font-size: 25rpx;
+  color: #9c9ca4;
+  padding-bottom: 20rpx;
+}
+.singer-vocalConcert .section .section-one .nav text.active {
+  font-size: 31rpx;
+  color: #161616;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.singer-vocalConcert .section .section-one .nav text.active::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 76rpx;
+  height: 7rpx;
+  text-align: center;
+  margin: 0 auto;
+  background: #ff2869;
+  border-radius: 3rpx;
+  content: '';
+}
+.singer-vocalConcert .section .section-one .edit-text {
+  max-width: 100%;
+  padding: 0 66rpx 45rpx 47rpx;
+}
+.singer-vocalConcert .section .section-one .edit-text .t1 {
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+  font-size: 28rpx;
+  color: #161616;
+  display: block;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-one .edit-text .t2 {
+  width: 637rpx;
+  font-size: 25rpx;
+  text-align: justify;
+}
+.singer-vocalConcert .section .section-one .edit-text .t2 image {
+  max-width: 100%;
+}
+.singer-vocalConcert .section .section-two {
+  padding: 33rpx 44rpx 50rpx 44rpx;
+  border-bottom: 18rpx solid #f6f6f6;
+}
+.singer-vocalConcert .section .section-two .title {
+  padding-bottom: 18rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.singer-vocalConcert .section .section-two .title .t1 {
+  font-size: 28rpx;
+  color: #161616;
+  margin-bottom: 28rpx;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-two .title .t2 {
+  font-size: 22rpx;
+  color: #9c9ca4;
+}
+.singer-vocalConcert .section .section-two .title .t3 {
+  font-size: 28rpx;
+  color: #333333;
+}
+.singer-vocalConcert .section .section-two .title .iconfont {
+  margin-left: 9rpx;
+  font-size: 25rpx;
+  color: #9c9ca4;
+}
+.singer-vocalConcert .section .section-two .singer {
+  margin-top: 26rpx;
+  padding-right: 15rpx;
+}
+.singer-vocalConcert .section .section-two .singer .box {
+  margin-bottom: 30rpx;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.singer-vocalConcert .section .section-two .singer .box .votes-wrap {
+  width: 523rpx;
+}
+.singer-vocalConcert .section .section-two .singer .box .votes-wrap .t1 {
+  font-size: 30rpx;
+  color: #000000;
+  margin-bottom: 10rpx;
+  display: block;
+}
+.singer-vocalConcert .section .section-two .singer .box .votes-wrap .votes {
+  width: 523rpx;
+  position: relative;
+  height: 29rpx;
+  line-height: 29rpx;
+  background: #dacef8;
+  border-radius: 3rpx;
+  font-size: 24rpx;
+  color: #ffffff;
+}
+.singer-vocalConcert .section .section-two .singer .box .votes-wrap .votes text {
+  min-width: 9.5%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  max-width: 523rpx;
+  background: #9f85df;
+  display: block;
+  padding-left: 6rpx;
+}
+.singer-vocalConcert .section .section-two .singer .box .status {
+  padding: 15rpx;
+}
+.singer-vocalConcert .section .section-two .singer .box .status .default {
+  width: 32rpx;
+  height: 32rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3e11b979733.png") no-repeat center;
+  background-size: contain;
+  display: block;
+}
+.singer-vocalConcert .section .section-two .singer .box .status .active {
+  width: 32rpx;
+  height: 32rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3e112a13b42.png") no-repeat center;
+  background-size: contain;
+  display: block;
+}
+.singer-vocalConcert .section .section-two .btn {
+  width: 224rpx;
+  height: 67rpx;
+  background: #ff2869;
+  border-radius: 26rpx;
+  font-size: 32rpx;
+  color: #ffffff;
+  line-height: 67rpx;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-three {
+  padding: 36rpx 42rpx 48rpx 46rpx;
+  border-bottom: 18rpx solid #f6f6f6;
+}
+.singer-vocalConcert .section .section-three .title {
+  position: relative;
+}
+.singer-vocalConcert .section .section-three .title .t1 {
+  font-size: 28rpx;
+  color: #161616;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-three .title .operation {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 65rpx;
+  height: 65rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f47761f3b3a3.png") no-repeat center;
+  background-size: contain;
+}
+.singer-vocalConcert .section .section-three .list {
+  margin-top: 67rpx;
+}
+.singer-vocalConcert .section .section-three .list .box {
+  padding-bottom: 40rpx;
+  margin-bottom: 37rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.singer-vocalConcert .section .section-three .list .box .pic {
+  width: 76rpx;
+  height: 76rpx;
+  border-radius: 50%;
+}
+.singer-vocalConcert .section .section-three .list .box .pic image {
+  width: 76rpx;
+  height: 76rpx;
+  border-radius: 50%;
+}
+.singer-vocalConcert .section .section-three .list .box .text {
+  width: 563rpx;
+  margin-left: 23rpx;
+}
+.singer-vocalConcert .section .section-three .list .box .text .t1 {
+  font-size: 31rpx;
+  color: #000000;
+  margin-bottom: 12rpx;
+  display: block;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-three .list .box .text .t2 {
+  font-size: 23rpx;
+  color: #9c9ca5;
+  margin-bottom: 25rpx;
+  display: block;
+}
+.singer-vocalConcert .section .section-three .list .box .text .t3 {
+  font-size: 30rpx;
+  color: #666666;
+  line-height: 40rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.singer-vocalConcert .section .section-three .list .box .list-media {
+  margin-top: 26rpx;
+}
+.singer-vocalConcert .section .section-three .list .box .list-media .box {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 184rpx;
+          flex: 0 0 184rpx;
+  height: 184rpx;
+  border-radius: 11rpx;
+  margin-right: 9rpx;
+  margin-right: 9px;
+}
+.singer-vocalConcert .section .section-three .list .box .list-media .box image {
+  width: 184rpx;
+  height: 184rpx;
+  border-radius: 11rpx;
+}
+.singer-vocalConcert .section .section-three .list .box .list-media .box video {
+  width: 184rpx;
+  height: 184rpx;
+  border-radius: 11rpx;
+  background: #000000;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar {
+  margin-top: 34rpx;
+  text-align: right;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .mr1 {
+  margin-right: 25rpx;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .mr2 {
+  margin-right: 25rpx;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .ico-1 {
+  width: 42rpx;
+  height: 42rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f51f5001dffd.png") no-repeat center;
+  background-size: contain;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .ico-2 {
+  width: 42rpx;
+  height: 42rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f51f566f361e.png") no-repeat center;
+  background-size: contain;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .ico-3 {
+  width: 42rpx;
+  height: 42rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f51f5a31a993.png") no-repeat center;
+  background-size: contain;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .ico-3::after {
+  border: none !important;
+}
+.singer-vocalConcert .section .section-three .list .box .ico-bar .ico-bar-txt {
+  font-size: 30rpx;
+  color: #333333;
+  margin-left: 15rpx;
+}
+.singer-vocalConcert .section .section-three .list .total {
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 25rpx;
+  color: #30aeff;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-four {
+  padding: 36rpx 44rpx 50rpx 44rpx;
+  border-bottom: 18rpx solid #f6f6f6;
+}
+.singer-vocalConcert .section .section-four .title {
+  padding-bottom: 18rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.singer-vocalConcert .section .section-four .title .t1 {
+  font-size: 28rpx;
+  color: #161616;
+  margin-bottom: 28rpx;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-four .title .t2 {
+  font-size: 22rpx;
+  color: #9c9ca4;
+}
+.singer-vocalConcert .section .section-four .title .t3 {
+  font-size: 28rpx;
+  color: #333333;
+}
+.singer-vocalConcert .section .section-four .title .iconfont {
+  margin-left: 9rpx;
+  font-size: 25rpx;
+  color: #9c9ca4;
+}
+.singer-vocalConcert .section .section-four .list {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.singer-vocalConcert .section .section-four .list .box {
+  position: relative;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 32%;
+          flex: 0 0 32%;
+  height: 255rpx;
+  margin-right: 2%;
+  margin-bottom: 27rpx;
+}
+.singer-vocalConcert .section .section-four .list .box:nth-of-type(3n) {
+  margin-right: 0;
+}
+.singer-vocalConcert .section .section-four .list .box .pic {
+  width: 100%;
+  height: 255rpx;
+  border-radius: 7rpx;
+}
+.singer-vocalConcert .section .section-four .list .box .pic image {
+  width: 100%;
+  height: 255rpx;
+  border-radius: 7rpx;
+}
+.singer-vocalConcert .section .section-four .list .box .text {
+  position: absolute;
+  bottom: 6rpx;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.singer-vocalConcert .section .section-four .list .box .text .t1 {
+  font-size: 26rpx;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 9rpx;
+  display: block;
+}
+.singer-vocalConcert .section .section-four .list .box .text .t2 {
+  font-size: 26rpx;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.singer-vocalConcert .section .section-five {
+  padding: 34rpx 40rpx 70rpx 42rpx;
+}
+.singer-vocalConcert .section .section-five .title {
+  margin-bottom: 49rpx;
+}
+.singer-vocalConcert .section .section-five .title .t1 {
+  font-size: 28rpx;
+  color: #161616;
+}
+.singer-vocalConcert .section .section-five .title .t2 {
+  margin-left: 12rpx;
+  font-size: 22rpx;
+  color: #9c9ca4;
+}
+.singer-vocalConcert .section .section-five .list .box {
+  margin-bottom: 60rpx;
+}
+.singer-vocalConcert .section .section-five .list .box .pic {
+  width: 187rpx;
+  height: 249rpx;
+}
+.singer-vocalConcert .section .section-five .list .box .pic image {
+  width: 187rpx;
+  height: 249rpx;
+  border-radius: 14rpx;
+}
+.singer-vocalConcert .section .section-five .list .box .text {
+  position: relative;
+  margin-left: 28rpx;
+  height: 249rpx;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t1 {
+  font-size: 30rpx;
+  color: #161616;
+  margin-bottom: 5rpx;
+  line-height: 46rpx;
+  font-weight: bold;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t2 {
+  font-size: 21rpx;
+  color: #939297;
+  display: block;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t3 {
+  margin-top: 16rpx;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t3 text {
+  padding: 0 22rpx;
+  border: 1px solid #e22a6a;
+  border-radius: 15rpx;
+  font-size: 20rpx;
+  color: #e22a6a;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  margin-right: 10rpx;
+  white-space: nowrap;
+  margin-bottom: 15rpx;
+  display: block;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t4 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t4 .t4a {
+  font-size: 22rpx;
+  color: #e22a6a;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t4 .t4b {
+  font-size: 31rpx;
+  color: #e22a6a;
+  font-weight: bold;
+}
+.singer-vocalConcert .section .section-five .list .box .text .t4 .t4c {
+  font-size: 20rpx;
+  color: #939297;
+  margin-left: 5rpx;
+}
+.singer-vocalConcert .section .section-five .toal {
+  font-size: 25rpx;
+  color: #30aeff;
+  text-align: center;
+  font-weight: bold;
+}
+.curr-ico {
+  width: 28rpx;
+  height: 28rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f48b22e957ff.png") no-repeat center;
+  background-size: contain;
+}
+.no-date {
+  margin: 0 auto;
+}
+.no-date .bg {
+  width: 344rpx;
+  height: 344rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3ce04c8443b.png") no-repeat center;
+  background-size: cover;
+  margin: 0 auto 61rpx;
+}
+.no-date text {
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+  color: #333333;
+}
+.shade-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+}
+.shade-box .success {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  right: 0;
+  width: 631rpx;
+  height: 379rpx;
+  background: #f8f8f8;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 11;
+}
+.shade-box .success .wrap {
+  position: absolute;
+  top: -65rpx;
+  width: 555rpx;
+  height: 292rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 8rpx 1px rgba(0, 0, 0, 0.35);
+  border-radius: 10rpx;
+}
+.shade-box .success .wrap .ico-1 {
+  position: absolute;
+  top: -13rpx;
+  left: 32rpx;
+  width: 21rpx;
+  height: 41rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f438cb5e1749.png") no-repeat center;
+  background-size: cover;
+  display: block;
+}
+.shade-box .success .wrap .ico-2 {
+  position: absolute;
+  top: -13rpx;
+  right: 32rpx;
+  width: 21rpx;
+  height: 41rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f438cb5e1749.png") no-repeat center;
+  background-size: cover;
+  display: block;
+}
+.shade-box .success .wrap .t1 {
+  font-size: 45rpx;
+  color: #161616;
+  text-align: center;
+  display: block;
+  margin: 0 45rpx;
+  padding: 18rpx 0 29rpx 0;
+  border-bottom: 1px dashed #d2d2d2;
+  font-weight: bold;
+}
+.shade-box .success .wrap .t2 {
+  margin-top: 40rpx;
+  margin-bottom: 7px;
+  font-size: 27rpx;
+  color: #161616;
+  display: block;
+  padding: 0 30rpx;
+  line-height: 38rpx;
+  text-align: center;
+}
+.shade-box .success .wrap .t3 {
+  font-size: 30rpx;
+  color: #161616;
+}
+.shade-box .success .btn {
+  width: 369rpx;
+  height: 67rpx;
+  line-height: 67rpx;
+  text-align: center;
+  background: #30c27c;
+  border-radius: 34rpx;
+  font-size: 34rpx;
+  color: #ffffff;
+  margin: 266rpx auto 0;
+}
+.shade-box .success .close {
+  position: absolute;
+  bottom: -68rpx;
+  width: 56rpx;
+  height: 56rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f4390bbe3b07.png") no-repeat center;
+  background-size: cover;
+  display: block;
+}
+

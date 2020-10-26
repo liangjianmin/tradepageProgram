@@ -1,0 +1,1 @@
+<view class="help"><block wx:for="{{helpCenter}}" wx:for-item="item" wx:for-index="index"><view class="box"><view class="tit"><view class="bg _div">{{"Q"+(index+1)}}</view><text>{{"问题"+(index+1)+":"}}</text>{{item.title}}</view><text class="text">{{item.content}}</text></view></block></view>

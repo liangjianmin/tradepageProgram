@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "票券记录",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 50,
+  "usingComponents": {}
+}

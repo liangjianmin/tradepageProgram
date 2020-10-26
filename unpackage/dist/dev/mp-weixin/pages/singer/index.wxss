@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view {
+  box-sizing: border-box;
+}
+image {
+  vertical-align: middle;
+}
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.boxsiz {
+  box-sizing: border-box;
+}
+/* 两侧对齐 */
+.bothSide {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+/* 平均分布 */
+.avarage {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+/* 水平居中 */
+.rowCenter {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+/* 垂直居中 */
+.verCenter {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.boxFlex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.boxFlexs {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+}
+.arrow {
+  position: absolute;
+  top: 66rpx;
+  left: 20rpx;
+  color: #999999;
+  font-size: 42rpx;
+  z-index: 1;
+}
+.singer-index .head {
+  position: relative;
+  width: 100%;
+  height: 530rpx;
+}
+.singer-index .head .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 530rpx;
+  z-index: -1;
+}
+.singer-index .head .pic {
+  width: 98rpx;
+  height: 98rpx;
+  margin-left: 39rpx;
+}
+.singer-index .head .pic image {
+  width: 98rpx;
+  height: 98rpx;
+  border-radius: 50%;
+}
+.singer-index .head .txt {
+  margin-left: 22rpx;
+}
+.singer-index .head .txt .t1 {
+  font-size: 41rpx;
+  color: #fff;
+  font-weight: bold;
+}
+.singer-index .head .txt .icon {
+  width: 29rpx;
+  height: 29rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3cce369ec58.png") no-repeat center;
+  background-size: cover;
+  display: block;
+  margin-left: 12rpx;
+}
+.singer-index .head .txt .t2 {
+  margin-top: 15rpx;
+  display: block;
+  font-size: 23rpx;
+  color: #fff;
+}
+.singer-index .section {
+  position: relative;
+  top: -39rpx;
+  padding: 35rpx 0 0 0;
+  background: #ffffff;
+  border-radius: 28rpx;
+}
+.singer-index .section .nametext {
+  margin: 0 51rpx 0 47rpx;
+  padding-bottom: 29rpx;
+  border-bottom: 1px solid #f1f1f1;
+}
+.singer-index .section .nametext .t1 {
+  font-size: 21rpx;
+  color: #939297;
+  display: block;
+  margin-bottom: 18rpx;
+}
+.singer-index .section .nametext .substance {
+  position: relative;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.singer-index .section .nametext .substance .t2 {
+  font-size: 20rpx;
+  color: #000000;
+  font-weight: 500;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-align: justify;
+  line-height: 32rpx;
+}
+.singer-index .section .nametext .substance .t2.active {
+  -webkit-line-clamp: 9999 !important;
+}
+.singer-index .section .nametext .substance .t3 {
+  font-size: 20rpx;
+  color: #e22a6a;
+}
+.singer-index .section .list-box .tit {
+  font-size: 29rpx;
+  color: #161616;
+  padding-top: 24rpx;
+  padding-left: 46rpx;
+  margin-bottom: 26rpx;
+  display: block;
+}
+.singer-index .section .list-box .list {
+  padding: 0 67rpx 0 39rpx;
+  margin-bottom: 40rpx;
+}
+.singer-index .section .list-box .list .pic {
+  width: 187rpx;
+  height: 249rpx;
+}
+.singer-index .section .list-box .list .pic image {
+  width: 187rpx;
+  height: 249rpx;
+}
+.singer-index .section .list-box .list .text {
+  margin-left: 28rpx;
+}
+.singer-index .section .list-box .list .text .t1 {
+  font-size: 30rpx;
+  color: #161616;
+  margin-bottom: 16rpx;
+  line-height: 46rpx;
+  font-weight: bold;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.singer-index .section .list-box .list .text .t2 {
+  font-size: 21rpx;
+  color: #939297;
+  display: block;
+}
+.singer-index .section .list-box .list .text .t3 {
+  width: 83rpx;
+  height: 30rpx;
+  border: 1px solid #E22A6A;
+  border-radius: 15rpx;
+  font-size: 20rpx;
+  color: #E22A6A;
+  line-height: 30rpx;
+  text-align: center;
+  margin-top: 16rpx;
+}
+.singer-index .section .list-box .list .text .t4 {
+  margin-top: 27rpx;
+}
+.singer-index .section .list-box .list .text .t4 .t4a {
+  font-size: 22rpx;
+  color: #E22A6A;
+  font-weight: bold;
+}
+.singer-index .section .list-box .list .text .t4 .t4b {
+  font-size: 31rpx;
+  color: #E22A6A;
+  font-weight: bold;
+}
+.singer-index .section .list-box .list .text .t4 .t4c {
+  font-size: 20rpx;
+  color: #939297;
+  margin-left: 5rpx;
+}
+.no-date .bg {
+  width: 344rpx;
+  height: 344rpx;
+  background: url("https://golemo.oss-cn-shenzhen.aliyuncs.com//5f3ce04c8443b.png") no-repeat center;
+  background-size: cover;
+  margin: 0 auto 61rpx;
+}
+.no-date text {
+  display: block;
+  text-align: center;
+  font-size: 24rpx;
+  color: #333333;
+}
+

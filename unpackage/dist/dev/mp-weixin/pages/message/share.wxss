@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view {
+  box-sizing: border-box;
+}
+image {
+  vertical-align: middle;
+}
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.boxsiz {
+  box-sizing: border-box;
+}
+/* 两侧对齐 */
+.bothSide {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+/* 平均分布 */
+.avarage {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+/* 水平居中 */
+.rowCenter {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+/* 垂直居中 */
+.verCenter {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.boxFlex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.boxFlexs {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+}
+.share {
+  padding-top: 130rpx;
+  min-height: 100%;
+  background: #f0f0f0;
+}
+.share .text {
+  position: relative;
+  width: 621rpx;
+  margin: 0 auto;
+}
+.share .text::before {
+  position: absolute;
+  left: -21rpx;
+  top: 9rpx;
+  width: 23rpx;
+  height: 30rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f4e15fa17ba1.png") no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.share .text::after {
+  position: absolute;
+  right: 0rpx;
+  bottom: 9rpx;
+  width: 23rpx;
+  height: 30rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f4e165f9326a.png") no-repeat center;
+  background-size: cover;
+  content: "";
+}
+.share .text text {
+  font-size: 36rpx;
+  color: #9a9a9a;
+  line-height: 60rpx;
+}
+.share .con {
+  width: 686rpx;
+  height: 427rpx;
+  background: #ffffff;
+  margin: 114rpx auto 0;
+  padding-right: 30rpx;
+}
+.share .con .bg1 {
+  width: 374rpx;
+  height: 58rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f4e0ebbcd276.png") no-repeat center;
+  background-size: cover;
+  margin: 60rpx auto 72rpx;
+}
+.share .con .t1 {
+  width: 588rpx;
+  font-size: 40rpx;
+  color: #343434;
+  margin-bottom: 50rpx;
+}
+.share .con .bar {
+  width: 100%;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.share .con .bar .line {
+  width: 120rpx;
+  height: 2rpx;
+  background: #9a9a9a;
+}
+.share .con .bar .name {
+  margin-left: 24rpx;
+  font-size: 30rpx;
+  color: #9a9a9a;
+}
+.share .bg-bar {
+  width: 100%;
+  height: 566rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f4e137896a44.png") no-repeat center;
+  background-size: cover;
+}
+.share .bg-bar .logo {
+  width: 118rpx;
+  height: 118rpx;
+  background: url("https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f4e140aa553a.png") no-repeat center;
+  background-size: cover;
+}
+.share .bg-bar .desc .t1 {
+  font-size: 24rpx;
+  color: #333333;
+  margin-bottom: 19rpx;
+  display: block;
+  text-align: center;
+}
+.share .bg-bar .desc .t2 {
+  font-size: 24rpx;
+  color: #333333;
+  display: block;
+  text-align: center;
+}
+.share .bg-bar .code {
+  width: 121rpx;
+  height: 124rpx;
+}
+.share .bg-bar .code image {
+  width: 121rpx;
+  height: 124rpx;
+}
+.share .btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 96rpx;
+  line-height: 96rpx;
+  background: #ec553f;
+  font-size: 30rpx;
+  color: #ffffff;
+  text-align: center;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-parse": "/components/u-parse/u-parse"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "演出日历",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-calendar": "/components/uni-calendar/uni-calendar"
+  }
+}

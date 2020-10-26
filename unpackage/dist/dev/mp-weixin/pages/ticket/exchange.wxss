@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+view {
+  box-sizing: border-box;
+}
+image {
+  vertical-align: middle;
+}
+.column {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.boxsiz {
+  box-sizing: border-box;
+}
+/* 两侧对齐 */
+.bothSide {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+/* 平均分布 */
+.avarage {
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+/* 水平居中 */
+.rowCenter {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+/* 垂直居中 */
+.verCenter {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.boxFlex {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+}
+.boxFlexs {
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+}
+.exchange {
+  width: 100%;
+  height: 100%;
+}
+.exchange .head {
+  width: 100%;
+  height: 250rpx;
+  background-color: #778997;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+          justify-content: flex-start;
+}
+.exchange .head .iconback {
+  color: #FFFFFF;
+  margin-left: 25rpx;
+  font-size: 60rpx;
+}
+.exchange .head .h_title {
+  color: #FFFFFF;
+  font-size: 34rpx;
+  margin-left: 200rpx;
+}
+.exchange .content {
+  width: 100%;
+  margin-top: -20rpx;
+}
+.exchange .content .c_top {
+  width: 100%;
+  height: 334rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  box-sizing: border-box;
+  padding: 32rpx 32rpx 40rpx 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.exchange .content .c_top .pic {
+  height: 262rpx;
+  width: 196rpx;
+}
+.exchange .content .c_top .pic image {
+  width: 196rpx;
+  height: 100%;
+}
+.exchange .content .c_top .c_top_text {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
+  margin-left: 40rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.exchange .content .c_top .c_top_text .t1 {
+  font-size: 36rpx;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.exchange .content .c_top .c_top_text .t2 {
+  font-weight: 500;
+  font-size: 24rpx;
+  color: #333333;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.exchange .content .c_top .c_top_text .t2 .share {
+  color: #ffffff;
+  font-size: 24rpx;
+  background-color: #778997;
+  width: 108rpx;
+  height: 56rpx;
+  border-radius: 28rpx;
+  line-height: 56rpx;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.exchange .content .blank {
+  height: 20rpx;
+  width: 100%;
+  background-color: #F0F0F0;
+}
+.exchange .content .c_down {
+  width: 100%;
+  margin-bottom: 150rpx;
+}
+.exchange .content .c_down .c_down_t {
+  text-align: center;
+  font-size: 36rpx;
+  color: #333333;
+  font-weight: bold;
+  padding-top: 30rpx;
+}
+.exchange .content .c_down .c_down_c {
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+.exchange .content .c_down .c_down_c image {
+  width: 100%;
+}
+.exchange .content .btn {
+  width: 100%;
+  position: fixed;
+  height: 70rpx;
+  bottom: 0;
+  left: 0;
+  background-color: #FF4531;
+  text-align: center;
+  line-height: 70rpx;
+  color: #FFFFFF;
+}
+image {
+  width: 100% !important;
+}
+
