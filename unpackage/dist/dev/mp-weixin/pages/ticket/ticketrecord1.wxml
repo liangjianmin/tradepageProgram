@@ -1,1 +1,0 @@
-<view class="ticketrecord"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="__i0__"><view class="record-box"><view class="title">{{''+item.msg+''}}</view><view class="time">{{''+item.ctime+''}}</view></view></block><block wx:if="{{list==''}}"><view class="none"><image src="../../static/none.png" mode></image><view>暂无数据</view></view></block></view>

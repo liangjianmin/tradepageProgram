@@ -1,1 +1,0 @@
-<view class="user-nickname"><view class="box"><input type="text" placeholder="新昵称" placeholder-style="input-placeholder" maxlength="30" data-event-opts="{{[['input',[['input',['$event']]]]]}}" value="{{name}}" bindinput="__e"/></view><view data-event-opts="{{[['tap',[['submit',['$event']]]]]}}" class="btn" bindtap="__e">修改昵称</view></view>

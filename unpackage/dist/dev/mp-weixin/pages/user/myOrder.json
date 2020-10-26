@@ -1,6 +1,0 @@
-{
-  "enablePullDownRefresh": true,
-  "navigationBarTitleText": "我的订单",
-  "onReachBottomDistance": 50,
-  "usingComponents": {}
-}

@@ -1,1 +1,0 @@
-<view class="ticket_qrcode"><view class="tq-box"><view class="tq-title">票券二维码</view><view class="tq-body"><text class="tqb-title">扫二维码得票券</text><image src="https://igoleme.oss-cn-shenzhen.aliyuncs.com/5f4b1e78744d4.jpg" mode></image><text class="save">保存票券码</text></view></view><block wx:if="{{is_given==0}}"><button class="share" open-type="share">立即分享</button></block></view>
