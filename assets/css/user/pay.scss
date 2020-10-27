@@ -1,0 +1,127 @@
+.pay-box {
+	padding-top: 55rpx;
+	min-height: 100%;
+	background: #eef2f7;
+	.text {
+		padding: 0 29rpx 0 49rpx;
+		.t1 {
+			font-size: 24rpx;
+			color: #666666;
+			line-height: 42rpx;
+			margin-bottom: 27rpx;
+		}
+		.t2 {
+			font-size: 24rpx;
+			color: #666666;
+			line-height: 42rpx;
+		}
+		.t3 {
+			font-size: 24rpx;
+			color: #0088dd;
+			text-decoration: underline;
+		}
+		.iconfont {
+			font-size: 25rpx;
+			color: #08d;
+			margin-left: 12rpx;
+			margin-right: 10rpx;
+		}
+	}
+	.contact {
+		width: 708rpx;
+		padding: 35rpx 25rpx 33rpx 33rpx;
+		margin: 36rpx auto 30rpx;
+		background: #ffffff;
+		box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
+		border-radius: 4rpx;
+		.input-box {
+			&.mb {
+				margin-bottom: 26rpx;
+			}
+			.t1 {
+				font-size: 26rpx;
+				color: #333;
+				font-weight: bold;
+			}
+			.inp {
+				width: 340rpx;
+				height: 64rpx;
+				background: #f5f6f8;
+				border-radius: 4rpx;
+				border: 1px solid #e6e9f1;
+				box-sizing: border-box;
+				padding-left: 20rpx;
+				&:focus{
+					background: #FFFFFF; 
+				}
+			}
+		}
+	}
+	.invoice {
+		width: 708rpx;
+		height: 98rpx;
+		margin: 0 auto 30rpx;
+		background: #ffffff;
+		box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
+		border-radius: 4rpx;
+		padding: 0 7rpx 0 33rpx;
+		.t1 {
+			font-size: 26rpx;
+			color: #333;
+			font-weight: bold;
+		}
+		.t2 {
+			font-size: 24rpx;
+			color: #666666;
+		}
+	}
+	.pay-btn {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		.bar {
+			width: calc(100% - 199rpx);
+			height: 99rpx;
+			background: #ffffff;
+			border-top: 1px solid #d6d6d6;
+			padding-left: 46rpx;
+			.t1 {
+				font-size: 24rpx;
+				color: #666666;
+			}
+			.t2 {
+				font-size: 42rpx;
+				color: #f3632c;
+				font-weight: bold;
+				margin-left: 6rpx;
+				margin-right: 5rpx;
+			}
+			.t3 {
+				font-size: 14rpx;
+				color: #f3632c;
+			}
+		}
+		.btn {
+			width: 199rpx;
+			height: 99rpx;
+			background: #f3632c;
+			font-size: 36rpx;
+			color: #ffffff;
+		}
+	}
+	.agreement {
+		width: 708rpx;
+		padding: 35rpx 23rpx 43rpx 33rpx;
+		margin: 0 auto;
+		background: #ffffff;
+		box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
+		border-radius: 4rpx;
+		.txt {
+			margin-left: 15rpx;
+			font-size: 24rpx;
+			color: #666666;
+			line-height: 46rpx;
+		}
+	}
+}

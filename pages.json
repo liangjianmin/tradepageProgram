@@ -25,6 +25,16 @@
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
+	},{
+		"path": "pages/user/agreement",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
+	},{
+		"path": "pages/user/pay",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
