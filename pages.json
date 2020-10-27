@@ -20,6 +20,11 @@
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
+	},{
+		"path": "pages/user/login",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
