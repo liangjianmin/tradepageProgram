@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.iconsearch:before {
+  content: "\e602";
+}
+
 .iconneirongchaxun:before {
   content: "\e6a9";
 }
@@ -42,3 +46,4 @@
 .iconguanbi:before {
   content: "\e6b0";
 }
+

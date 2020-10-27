@@ -1,0 +1,99 @@
+.history-index {
+	.h-head {
+		padding: 0 35rpx;
+		height: 154rpx;
+		background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/510a32425ebc559a245478b145fbe9ae.jpg') no-repeat center;
+		background-size: cover;
+		.search-box {
+			width: 100%;
+			height: 86rpx;
+			background: #ffffff;
+			border-radius: 8rpx;
+			.search-bar {
+				.country {
+					padding-left: 30rpx;
+					padding-right: 22rpx;
+					.arrow {
+						width: 0;
+						height: 0;
+						border-left: 13rpx solid transparent;
+						border-right: 13rpx solid transparent;
+						border-top: 18rpx solid #d8d8d8;
+					}
+					.txt {
+						margin-left: 8rpx;
+						font-size: 22rpx;
+						color: #666666;
+					}
+				}
+				.inp {
+					padding-left: 30rpx;
+					border-left: 1px solid #e0e0e0;
+					font-size: 24rpx;
+				}
+			}
+			.btn {
+				width: 120rpx;
+				height: 86rpx;
+				background: #ffa619;
+				border-radius: 8rpx;
+				font-size: 24rpx;
+				color: #ffffff;
+			}
+		}
+	}
+	.list {
+		background: #eef2f7;
+		padding: 28rpx 25rpx 25rpx 25rpx;
+		.box {
+			padding: 16rpx 0 18rpx 24rpx;
+			margin-bottom: 25rpx;
+			background: #ffffff;
+			box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
+			.t1 {
+				width: 660rpx;
+				font-size: 28rpx;
+				color: #333333;
+				line-height: 40rpx;
+				font-weight: bold;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 1;
+				overflow: hidden;
+			}
+			.color1 {
+				font-size: 20rpx;
+				color: #fa4a42;
+			}
+			.color2 {
+				font-size: 20rpx;
+				color: #48d37d;
+			}
+			.line {
+				width: 1px;
+				height: 20rpx;
+				color: #b5b5b5;
+				background: #b5b5b5;
+				margin-left: 18rpx;
+				margin-right: 18rpx;
+			}
+			.tt {
+				font-size: 22rpx;
+				color: #666666;
+				line-height: 40rpx;
+			}
+			.t2 {
+				width: 660rpx;
+				font-size: 22rpx;
+				color: #666666;
+				line-height: 40rpx;
+				text-overflow: ellipsis;
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 1;
+				overflow: hidden;
+			}
+		}
+	}
+}

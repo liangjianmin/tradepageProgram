@@ -1,7 +1,212 @@
-.h-index{
-	.h-head{
+.h-index {
+	.h-head {
+		padding: 0 35rpx;
 		height: 250rpx;
 		background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/510a32425ebc559a245478b145fbe9ae.jpg') no-repeat center;
 		background-size: cover;
+		.top {
+			margin-top: 20rpx;
+			width: 100%;
+			.logo {
+				width: 151rpx;
+				height: 42rpx;
+			}
+			.iconfont {
+				font-size: 30rpx;
+				color: #ffffff;
+			}
+			.tel {
+				margin-left: 10rpx;
+				color: #ffffff;
+				font-size: 24rpx;
+			}
+		}
+		.search-box {
+			margin-top: 25rpx;
+			width: 100%;
+			height: 86rpx;
+			background: #ffffff;
+			border-radius: 8rpx;
+			.search-bar {
+				.country {
+					padding-left: 30rpx;
+					padding-right: 22rpx;
+					.arrow {
+						width: 0;
+						height: 0;
+						border-left: 13rpx solid transparent;
+						border-right: 13rpx solid transparent;
+						border-top: 18rpx solid #d8d8d8;
+					}
+					.txt {
+						margin-left: 8rpx;
+						font-size: 22rpx;
+						color: #666666;
+					}
+				}
+				.inp {
+					padding-left: 30rpx;
+					border-left: 1px solid #e0e0e0;
+					font-size: 24rpx;
+				}
+			}
+			.btn {
+				width: 120rpx;
+				height: 86rpx;
+				background: #ffa619;
+				border-radius: 8rpx;
+				font-size: 24rpx;
+				color: #ffffff;
+			}
+		}
+		.promt {
+			width: 100%;
+			margin-top: 30rpx;
+			text-align: right;
+			.txt {
+				font-size: 24rpx;
+				color: #fff;
+			}
+			.iconfont {
+				margin-left: 10rpx;
+				font-size: 24rpx;
+				color: #fff;
+			}
+		}
 	}
-} 
+	.content {
+		padding: 16rpx 20rpx 0 20rpx;
+		.title {
+			padding-left: 30rpx;
+			.t1 {
+				font-size: 30rpx;
+				color: #333333;
+				font-weight: bold;
+				margin-right: 30rpx;
+			}
+			.t2 {
+				width: 223rpx;
+				height: 39rpx;
+				background: #fffaf1;
+				border-radius: 4rpx;
+				border: 1px solid #e37a1d;
+				.iconfont {
+					font-size: 25rpx;
+					color: #ffb41b;
+				}
+				text {
+					font-size: 26rpx;
+					color: #631600;
+					margin-left: 9rpx;
+				}
+			}
+		}
+		.list {
+			margin-top: 20rpx;
+			.box {
+				padding: 10rpx 0 10rpx 24rpx;
+				background: #ffffff;
+				box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
+				margin-bottom: 20rpx;
+				.t1 {
+					font-size: 26rpx;
+					color: #333333;
+				}
+				.color1 {
+					font-size: 20rpx;
+					color: #fa4a42;
+				}
+				.color2 {
+					font-size: 20rpx;
+					color: #48d37d;
+				}
+				.line {
+					width: 1px;
+					height: 20rpx;
+					color: #b5b5b5;
+					background: #b5b5b5;
+					margin-left: 18rpx;
+					margin-right: 18rpx;
+				}
+				.tt {
+					font-size: 22rpx;
+					color: #666666;
+					line-height: 40rpx;
+				}
+				.t2 {
+					font-size: 22rpx;
+					color: #666666;
+					line-height: 40rpx;
+				}
+				.t3 {
+					font-size: 22rpx;
+					color: #666666;
+					line-height: 40rpx;
+				}
+				.level {
+					width: 26rpx;
+					height: 26rpx;
+					background: #ffeeee;
+					border-radius: 2rpx;
+					border: 1px solid #f42e2e;
+					font-size: 20rpx;
+					color: #da4b4b;
+				}
+				.color {
+					font-size: 24rpx;
+					color: #f42e2e;
+					margin-left: 13rpx;
+					margin-right: 23rpx;
+				}
+				.iconfont {
+					font-size: 20rpx;
+					color: #f42e2e;
+				}
+			}
+		}
+		.recently{
+			padding: 0 35rpx 0 32rpx;
+			margin-top: 33rpx;
+			.box{
+				margin-bottom: 25rpx;
+				.t1{
+					font-size: 26rpx;
+					color: #666666;
+				}
+				.t2{
+					font-size: 26rpx;
+					color: #0088DD;
+					font-weight: bold;
+				}
+			}
+		}
+	}
+	.risk {
+		padding: 0 20rpx;
+		height: 265rpx;
+		margin: 0 auto;
+		image {
+			width: 100%;
+			height: 265rpx;
+		}
+	}
+	.agreement {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 56rpx;
+		background: #edf4f9;
+		padding-left: 20rpx;
+		padding-right: 40rpx;
+		width: 100%;
+		.txt{
+			font-size: 30rpx;
+			color: #0088DD;
+			font-weight: bold;
+		}
+		.iconfont{
+			font-size: 32rpx;
+			color: #B8C1C7;
+		}
+	}
+}

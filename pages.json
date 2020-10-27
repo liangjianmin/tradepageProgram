@@ -10,6 +10,16 @@
 		"style": {
 			"navigationBarTitleText": "个人中心"
 		}
+	},{
+		"path": "pages/search/history",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
+	},{
+		"path": "pages/search/index",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
