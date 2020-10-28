@@ -35,6 +35,16 @@
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
+	},{
+		"path": "pages/detail/index",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
+	},{
+		"path": "pages/user/buy",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

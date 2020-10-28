@@ -7,7 +7,7 @@
 						<text class="arrow"></text>
 						<text class="txt">CHN 中国</text>
 					</view>
-					<input type="text" class="inp" placeholder="请输入企业名称关键词" placeholder-style="color:#999999;" />
+					<input type="text" class="inp" :value="name" placeholder="请输入企业名称关键词" placeholder-style="color:#999999;" />
 				</view>
 				<view class="btn row rowCenter verCenter">查一下</view>
 			</view>
@@ -67,9 +67,13 @@ import { API } from '@/util/api.js';
 
 export default {
 	data() {
-		return {};
+		return {
+			name:''
+		};
 	},
-	onLoad(options) {},
+	onLoad(options) {
+		this.name = options.name || '';
+	},
 	onShow() {},
 	onPullDownRefresh() {
 		this.refresh();
