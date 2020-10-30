@@ -34,7 +34,7 @@
 			<view class="box">
 				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
 				<view class="row verCenter">
-					<text class="color2">非存续</text>
+					<text class="color2">存续</text>
 					<text class="line"></text>
 					<text class="tt">印度 IND</text>
 				</view>

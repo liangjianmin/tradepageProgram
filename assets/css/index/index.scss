@@ -168,6 +168,7 @@
 		.recently {
 			padding: 0 35rpx 0 32rpx;
 			margin-top: 33rpx;
+			margin-bottom: 114rpx;
 			.box {
 				margin-bottom: 25rpx;
 				.t1 {
@@ -211,16 +212,22 @@
 		}
 	}
 	.layer-box {
-		width: 708rpx;
+		width: 683rpx;
 		.im {
-			width: 708rpx;
-			height: 943rpx;
+			width: 683rpx;
+			height: 920rpx;
+		}
+		.bg {
+			width: 683rpx;
+			height: 920rpx;
+			background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/24c0c5f9537fa11ecd667bd6872f97c4.png') #FFFFFF no-repeat center;
+			background-size: cover;
 		}
 		.btn {
 			height: 118rpx;
 			border-top: 1px solid #e5e5e5;
-			background: #FFFFFF;
-			.row{
+			background: #ffffff;
+			.row {
 				flex: 0 0 50%;
 			}
 			.btn-1 {
@@ -235,7 +242,7 @@
 				height: 102rpx;
 				background: none;
 				color: none;
-				&::after{
+				&::after {
 					border: none;
 				}
 			}

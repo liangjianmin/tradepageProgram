@@ -20,6 +20,7 @@
 			border-radius: 100rpx;
 			border: 1px solid #e6e9f1;
 			padding: 0 52rpx 0 57rpx;
+			flex-wrap: nowrap;
 			.inp {
 				font-size: 30rpx;
 			}
@@ -29,6 +30,10 @@
 				color: #000000;
 				padding: 0;
 				margin: 0;
+				white-space: nowrap;
+				&.code-curr{
+					color: #999; 
+				}
 				&::after {
 					border: none;
 				}

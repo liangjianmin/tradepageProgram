@@ -191,10 +191,10 @@
 				</view>
 			</view>
 		</view>
-		<view class="statement">
+		<navigator class="statement" url="/pages/user/agreement" hover-class="none">
 			<text class="iconfont iconjinggao"></text>
 			<text class="t1">《免责声明》</text>
-		</view>
+		</navigator>
 		<!-- 更多维度 -->
 		<view class="title row rowCenter verCenter" style="width: 143rpx;">更多维度</view>
 		<navigator class="more" url="/pages/user/buy" hover-class="none">

@@ -1,6 +1,6 @@
 <template>
 	<view class="agreement">
-		<view class="tab row avarage">
+		<view class="tab row avarage verCenter fix">
 			<view @click="tab(index)" :class="{ active: active == index }" v-for="(item, index) in itemtext" :key="index" class="box row rowCenter verCenter">{{item}}</view>
 		</view>
 		<view class="content">
@@ -201,6 +201,8 @@ export default {
 		tab(index) {
 			this.active = index;
 			let arr = ['.section-one', '.section-two', '.section-three', '.section-four'];
+			this.flag=true;
+			
 			
 			uni.createSelectorQuery()
 				.select('.content')
@@ -210,7 +212,7 @@ export default {
 						.boundingClientRect(res => {
 							uni.pageScrollTo({
 								duration: 100,
-								scrollTop: res.top - data.top
+								scrollTop: res.top - data.top-50
 							});
 						})
 						.exec();

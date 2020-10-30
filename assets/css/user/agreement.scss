@@ -1,8 +1,10 @@
 .agreement {
-	padding-top: 40rpx;
 	padding-bottom: 100rpx;
 	background-color: #1c4b90;
 	.tab {
+		width: 100%;
+		height: 147rpx;
+		background-color: #1C4B90;
 		.box {
 			width: 155rpx;
 			height: 54rpx;
@@ -12,9 +14,13 @@
 			color: #333333;
 			font-weight: bold;
 		}
+		&.fix{
+			position: fixed;
+			top: 0;
+		}
 	}
 	.content {
-		margin-top: 55rpx;
+		margin-top: 147rpx;
 		background: #ffffff;
 		border-radius: 100rpx 100rpx 0px 0px;
 		.title {

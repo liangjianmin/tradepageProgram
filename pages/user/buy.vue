@@ -7,16 +7,22 @@
 			<view class="t4">
 				如对服务内容有任何疑问，请咨询
 				<text class="iconfont iconweikefu"></text>
-				<text class="tt">客服：0755-23485853</text>
+				<text class="tt" @click="makePhoneCall()">客服：0755-23485853</text>
 			</view>
 		</view>
 		<view class="title row verCenter">选择您需要的服务</view>
 		<view class="content">
 			<view class="tb">该企业建议购买深度信用报告,包含更丰富的企业数据以了解企业经营风险。</view>
 			<view class="list row">
-				<view class="box1 box">
+				<view class="box1 box" @click="type=2">
+					<view class="bg" v-if="type == 1"></view>
 					<view class="tit row verCenter">
-						<checkbox />
+						<template v-if="type == 2">
+							<checkbox checked="true"/>
+						</template>
+						<template v-else>
+							<checkbox/>
+						</template>
 						<text>深度信用报告</text>
 					</view>
 					<view class="wrap">
@@ -44,9 +50,15 @@
 						</view>
 					</view>
 				</view>
-				<view class="box2 box">
+				<view class="box2 box" @click="type=1">
+					<view class="bg" v-if="type == 2"></view>
 					<view class="tit row verCenter">
-						<checkbox />
+						<template v-if="type == 1">
+							<checkbox checked="true"/>
+						</template>
+						<template v-else>
+							<checkbox/>
+						</template>
 						<text>风险决策报告</text>
 					</view>
 					<view class="wrap">
@@ -68,7 +80,6 @@
 							<view class="li">监管机构信息</view>
 						</view>
 					</view>
-					<view class="bg"></view>
 				</view>
 			</view>
 			<view class="tip row">
@@ -90,17 +101,23 @@
 <script>
 import { API } from '@/util/api.js';
 
-
 export default {
 	data() {
-		return {};
+		return {
+			type: 2
+		};
 	},
 	onLoad(options) {},
 	methods: {
-		pay(){
+		makePhoneCall() {
+			uni.makePhoneCall({
+				phoneNumber: '0755-23485853'
+			});
+		},
+		pay() {
 			uni.navigateTo({
-				url:"/pages/user/pay"
-			})
+				url: '/pages/user/pay'
+			});
 		}
 	}
 };

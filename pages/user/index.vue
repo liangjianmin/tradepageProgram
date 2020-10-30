@@ -3,7 +3,7 @@
 		<view class="user-head column">
 			<view class="tel row verCenter">
 				<text class="iconfont iconweikefu"></text>
-				<text class="tel-t1">客服：0755-23485853</text>
+				<text class="tel-t1" @click="makePhoneCall()">客服：0755-23485853</text>
 			</view>
 			<view class="ad"><image src="http://img.ichunt.com/images/ichunt/minProgram/bcaf917ddb6a16e9dc72cbfa3d9edb35.jpg" mode="aspectFill"></image></view>
 			<text class="t1">Skjdi.1234</text>
@@ -110,6 +110,11 @@ export default {
 	},
 	onLoad(options) {},
 	methods: {
+		makePhoneCall() {
+			uni.makePhoneCall({
+				phoneNumber: '0755-23485853'
+			});
+		},
 		tab(index) {
 			this.active = index;
 			this.isAvisible = 'none';

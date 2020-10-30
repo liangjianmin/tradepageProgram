@@ -51,6 +51,7 @@
 				border: 1px solid #e6e9f1;
 				box-sizing: border-box;
 				padding-left: 20rpx;
+				font-size: 26rpx;
 				&:focus{
 					background: #FFFFFF; 
 				}
@@ -71,6 +72,25 @@
 			font-weight: bold;
 		}
 		.t2 {
+			font-size: 24rpx;
+			color: #666666;
+		}
+	}
+	.tgb {
+		width: 708rpx;
+		margin: 0 auto 30rpx;
+		background: #ffffff;
+		box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
+		border-radius: 4rpx;
+		padding: 20rpx 7rpx 20rpx 33rpx;
+		.t1 {
+			font-size: 26rpx;
+			color: #333;
+			font-weight: bold;
+			white-space: nowrap;
+		}
+		.t2 {
+			padding: 0 10rpx;
 			font-size: 24rpx;
 			color: #666666;
 		}

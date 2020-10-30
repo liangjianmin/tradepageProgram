@@ -5,43 +5,54 @@
 			"navigationBarTitleText": "外贸护法",
 			"enablePullDownRefresh": true
 		}
+	},{
+		"path": "pages/index/indexs",
+		"style": {
+			"navigationBarTitleText": "外贸护法",
+			"enablePullDownRefresh": true
+		}
 	}, {
 		"path": "pages/user/index",
 		"style": {
 			"navigationBarTitleText": "个人中心"
 		}
-	},{
+	}, {
 		"path": "pages/search/history",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
-	},{
+	}, {
 		"path": "pages/search/index",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
-	},{
+	}, {
 		"path": "pages/user/login",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
-	},{
+	}, {
 		"path": "pages/user/agreement",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
-	},{
+	}, {
 		"path": "pages/user/pay",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
-	},{
+	}, {
 		"path": "pages/detail/index",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
-	},{
+	}, {
 		"path": "pages/user/buy",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
+	}, {
+		"path": "pages/index/city",
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
@@ -59,6 +70,12 @@
 		"backgroundColor": "#FFFFFF",
 		"list": [{
 				"pagePath": "pages/index/index",
+				"iconPath": "static/i1.png",
+				"selectedIconPath": "static/i1s.png",
+				"text": "资信查询"
+			},
+			{
+				"pagePath": "pages/index/indexs",
 				"iconPath": "static/i1.png",
 				"selectedIconPath": "static/i1s.png",
 				"text": "资信查询"
