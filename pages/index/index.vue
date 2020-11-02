@@ -101,7 +101,7 @@
 				</scroll-view>
 			</view>
 		</view>
-		<view class="risk"><image src="../../static/p1.png" mode="aspectFill"></image></view>
+		<view class="risk"  @click="register()"><image src="../../static/p1.png" mode="aspectFill"></image></view>
 		<view class="agreement row bothSide verCenter" v-if="flag">
 			<text class="txt" @click="toAgreement()">《用户协议》</text>
 			<text class="iconfont iconguanbi" @click="flag=false"></text>
