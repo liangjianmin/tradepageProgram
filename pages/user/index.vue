@@ -40,6 +40,10 @@
 				</view>
 			</view>
 			<view class="list-order" :style="{ display: isBvisible }">
+				<view class="tip row">
+					<text class="iconfont iconjinggao"></text>
+					<text class="t1">报告完成通知-访问官网wwww.xxxx.com【登录个人中心】-【订单管理】-【查阅报告】为获得更好的阅读体验，建议您使用个人电脑查阅</text>
+				</view>
 				<view class="box column">
 					<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATION…</text>
 					<text class="color1">深度信用风险报告</text>

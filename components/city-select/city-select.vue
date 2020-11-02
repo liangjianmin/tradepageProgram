@@ -10,7 +10,7 @@
 				<view class="hot-item" @click="cityTrigger(activeCity)">{{ activeCity[formatName] }}</view>
 			</view> -->
 			<!-- 热门城市 -->
-			<view class="hot-title" v-if="hotCity.length > 0 && !serachCity">热门国家/地区</view>
+			<view class="hot-title" v-if="hotCity.length > 0 && !serachCity">热门国别/地区</view>
 			<view class="hot-city" v-if="hotCity.length > 0 && !serachCity">
 				<template v-for="(item, index) in hotCity">
 					<view :key="index" @click="cityTrigger(item, 'hot')" class="hot-item">{{ item[formatName] }}</view>
@@ -48,7 +48,7 @@ export default {
 		//查询提示文字
 		placeholder: {
 			type: String,
-			default: '请输入国家/地区'
+			default: '请输入国别/地区'
 		},
 		//传入要排序的名称
 		formatName: {

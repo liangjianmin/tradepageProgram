@@ -62,11 +62,9 @@
 						<text>风险决策报告</text>
 					</view>
 					<view class="wrap">
-						<view class="t-xb">
-							<text class="t1">等待</text>
-							<text class="t2">5-10工作日</text>
-							<text class="t1">获取</text>
-							<text class="t2">最新的企业报告</text>
+						<view class="t-xb colu">
+							<text class="t1">立即获取</text>
+							<text class="t2">2018年12月12日企业报告</text>
 						</view>
 						<view class="baokuo">内容包括</view>
 						<view class="ul-box">
@@ -90,7 +88,10 @@
 		<view class="pay-btn row bothSide">
 			<view class="bar row verCenter">
 				<text class="t1">应付总额：</text>
-				<text class="t2">899</text>
+				<text class="t2">
+					<template v-if="type == 2">899</template>
+					<template v-if="type == 1">399</template>
+				</text>
 				<text class="t3">元</text>
 			</view>
 			<view class="btn row rowCenter verCenter" @click="pay()">支付</view>

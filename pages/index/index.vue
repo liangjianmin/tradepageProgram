@@ -14,9 +14,21 @@
 						<text class="arrow"></text>
 						<text class="txt">{{city}}</text>
 					</view>
-					<input type="text" class="inp" v-model="name" placeholder="请输入企业名称关键词" placeholder-style="color:#999999;" />
+					<input @click="layer=!layer" type="text" class="inp" v-model="name" placeholder="请输入企业名称关键词" placeholder-style="color:#999999;" />
 				</view>
 				<view class="btn row rowCenter verCenter" @click="toSearch(name)">查一下</view>
+				<view class="history-bar" v-if="layer">
+					<view class="text row bothSide">
+						<text>搜索记录</text>
+						<text>全部删除</text>
+					</view>
+					<view class="list">
+						<view class="box">深圳市合家平安有限公司</view>
+						<view class="box">深圳市合家平安有限公司</view>
+						<view class="box">深圳市合家平安有限公司</view>
+						<view class="box">深圳市合家平安有限公司</view>
+					</view>
+				</view>
 			</view>
 			<view class="promt" @click="promt()">
 				<text class="txt">温馨提醒</text>
@@ -32,41 +44,64 @@
 				</view>
 			</view>
 			<view class="list">
-				<navigator url="/pages/detail/index" class="box column" hover-class="none">
-					<text class="t1">Google Gdjadb inc.</text>
-					<view class="row verCenter">
-						<text class="color1">非存续</text>
-						<text class="line"></text>
-						<text class="tt">印度 IND</text>
-					</view>
-					<text class="t2">员工数量：4500</text>
-					<text class="t2">销售收入：$64,451,260.00 （大型企业）</text>
-					<text class="t2">领导人：拉吉库马尔·希拉尼</text>
-				</navigator>
-				<navigator url="/pages/detail/index" class="box column" hover-class="none">
-					<text class="t1">Google Gdjadb inc.</text>
-					<view class="row verCenter">
-						<text class="color2">非存续</text>
-						<text class="line"></text>
-						<text class="tt">印度 IND</text>
-					</view>
-					<view class="row verCenter">
-						<text class="t3">国家 / 地区风险等级：</text>
-						<text class="level row rowCenter verCenter">8</text>
-						<text class="color">高风险</text>
-						<text class="iconfont icontishi"></text>
-					</view>
-					<view class="row verCenter">
-						<text class="t3">国家 / 地区主权信用风险等级：</text>
-						<text class="level row rowCenter verCenter">C</text>
-						<text class="color">高风险</text>
-						<text class="iconfont icontishi"></text>
-					</view>
-					<text class="t2">销售收入：$451,260.00 （小型企业）</text>
-				</navigator>
+				<scroll-view scroll-y="true" style="height: 468rpx;">
+					<navigator url="/pages/detail/index?type=1" class="box column" hover-class="none">
+						<text class="t1">Google Gdjadb inc.</text>
+						<view class="row verCenter">
+							<text class="color1">非存续</text>
+							<text class="line"></text>
+							<text class="tt">印度 IND</text>
+						</view>
+						<text class="t2">员工数量：4500</text>
+						<text class="t2">销售收入：$64,451,260.00 （大型企业）</text>
+						<text class="t2">领导人：拉吉库马尔·希拉尼</text>
+					</navigator>
+					<navigator url="/pages/detail/index?type=2" class="box column" hover-class="none">
+						<text class="t1">Google Gdjadb inc.</text>
+						<view class="row verCenter">
+							<text class="color2">非存续</text>
+							<text class="line"></text>
+							<text class="tt">印度 IND</text>
+						</view>
+						<view class="row verCenter">
+							<text class="t3">国家 / 地区风险等级：</text>
+							<text class="level row rowCenter verCenter">8</text>
+							<text class="color">高风险</text>
+							<text class="iconfont icontishi"></text>
+						</view>
+						<view class="row verCenter">
+							<text class="t3">国家 / 地区主权信用风险等级：</text>
+							<text class="level row rowCenter verCenter">C</text>
+							<text class="color">高风险</text>
+							<text class="iconfont icontishi"></text>
+						</view>
+						<text class="t2">销售收入：$451,260.00 （小型企业）</text>
+					</navigator>
+					<navigator url="/pages/detail/index?type=1" class="box column" hover-class="none">
+						<text class="t1">Google Gdjadb inc.</text>
+						<view class="row verCenter">
+							<text class="color2">非存续</text>
+							<text class="line"></text>
+							<text class="tt">印度 IND</text>
+						</view>
+						<view class="row verCenter">
+							<text class="t3">国家 / 地区风险等级：</text>
+							<text class="level row rowCenter verCenter">8</text>
+							<text class="color">高风险</text>
+							<text class="iconfont icontishi"></text>
+						</view>
+						<view class="row verCenter">
+							<text class="t3">国家 / 地区主权信用风险等级：</text>
+							<text class="level row rowCenter verCenter">C</text>
+							<text class="color">高风险</text>
+							<text class="iconfont icontishi"></text>
+						</view>
+						<text class="t2">销售收入：$451,260.00 （小型企业）</text>
+					</navigator>
+				</scroll-view>
 			</view>
 		</view>
-		<view class="risk" @click="register()"><image src="../../static/p1.png" mode="aspectFill"></image></view>
+		<view class="risk"><image src="../../static/p1.png" mode="aspectFill"></image></view>
 		<view class="agreement row bothSide verCenter" v-if="flag">
 			<text class="txt" @click="toAgreement()">《用户协议》</text>
 			<text class="iconfont iconguanbi" @click="flag=false"></text>
@@ -94,7 +129,8 @@ export default {
 		return {
 			name: '',
 			city:'CHN 中国',
-			flag:true
+			flag:true,
+			layer:false
 		};
 	},
 	onLoad(options) {},
@@ -129,11 +165,13 @@ export default {
 			});
 		},
 		choice(){
+			this.layer=false;
 			uni.navigateTo({
 				url:'/pages/index/city'
 			})
 		},
 		toSearch(val) {
+			this.layer=false;
 			if (!val) {
 				uni.showToast({
 					title: '请输入企业名称关键词',

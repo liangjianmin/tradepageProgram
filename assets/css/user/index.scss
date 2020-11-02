@@ -76,6 +76,19 @@
 		.list-order {
 			margin-top: 30rpx;
 			padding: 0 25rpx;
+			.tip{
+				padding: 10rpx 0 20rpx 0;
+				.iconfont{
+					font-size: 24rpx;
+					color: #666666;
+				}
+				.t1{
+					margin-left: 19rpx;
+					font-size: 24rpx;
+					color: #666666;
+					text-align: justify;
+				}
+			}
 			.box {
 				background: #ffffff;
 				box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);

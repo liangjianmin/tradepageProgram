@@ -32,25 +32,25 @@
 				</view>
 			</view>
 			<view class="recently">
-				<view class="box row bothSide verCenter" @click="toRecently()">
+				<navigator url="/pages/detail/index?type=2" class="box row bothSide verCenter" hover-class="none">
 					<text class="t1">SKY PHONE LIC SKY. USA</text>
 					<text class="t2">USA</text>
-				</view>
-				<view class="box row bothSide verCenter" @click="toRecently()">
+				</navigator>
+				<navigator url="/pages/detail/index?type=2" class="box row bothSide verCenter" hover-class="none">
 					<text class="t1">LALS YHhhddkc hJYGGCF hVAHD</text>
 					<text class="t2">HK</text>
-				</view>
-				<view class="box row bothSide verCenter" @click="toRecently()">
+				</navigator>
+				<navigator url="/pages/detail/index?type=2" class="box row bothSide verCenter" hover-class="none">
 					<text class="t1">SKY PHONE LIC SKY. USA</text>
 					<text class="t2">USA</text>
-				</view>
-				<view class="box row bothSide verCenter" @click="toRecently()">
+				</navigator>
+				<navigator url="/pages/detail/index?type=2" class="box row bothSide verCenter" hover-class="none">
 					<text class="t1">青岛华正信息科技有限公司</text>
 					<text class="t2">中国</text>
-				</view>
+				</navigator>
 			</view>
 		</view>
-		<view class="risk" @click="register()"><image src="../../static/p1.png" mode="aspectFill"></image></view>
+		<view class="risk" @click="register()"><image src="../../static/p2.png" mode="aspectFill"></image></view>
 		<view class="agreement row bothSide verCenter" v-if="flag">
 			<text class="txt" @click="toAgreement()">《用户协议》</text>
 			<text class="iconfont iconguanbi" @click="flag=false"></text>
