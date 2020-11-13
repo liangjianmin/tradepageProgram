@@ -56,6 +56,11 @@
 		"style": {
 			"navigationBarTitleText": "外贸护法"
 		}
+	},{
+		"path": "pages/user/suceess",
+		"style": {
+			"navigationBarTitleText": "外贸护法"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

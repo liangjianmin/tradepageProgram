@@ -221,6 +221,10 @@
 					font-size: 24rpx;
 					color: #333333;
 					line-height: 40rpx;
+					.link {
+						font-size: 24rpx;
+						color: #08d;
+					}
 					.t1 {
 						font-size: 24rpx;
 						color: #333333;
@@ -274,6 +278,12 @@
 					font-size: 24rpx;
 					color: #333333;
 				}
+				.xf {
+					width: 492rpx;
+					height: 60rpx;
+					background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/310e59c91b735b2d044e3d80077cd418.jpg')#FFFFFF no-repeat center;
+					background-size: cover;
+				}
 			}
 		}
 		.risk-error {
@@ -287,7 +297,7 @@
 			}
 		}
 	}
-	.business-information-sb{
+	.business-information-sb {
 		position: relative;
 		width: 742rpx;
 		height: 750rpx;
@@ -325,9 +335,8 @@
 				}
 			}
 		}
-		
 	}
-	.relation-sb{
+	.relation-sb {
 		position: relative;
 		width: 742rpx;
 		height: 310rpx;
@@ -342,16 +351,16 @@
 		padding: 15rpx 18rpx 20rpx 18rpx;
 		.wrap {
 			border: 1px solid #e6e9f1;
-			border-top: 1px solid #1C4B90;
+			border-top: 1px solid #1c4b90;
 			margin-bottom: 20rpx;
-			text{
+			text {
 				box-sizing: border-box;
 			}
 			.box {
 				height: 60rpx;
 			}
 			.box1 {
-				border-bottom: 1px solid #E6E9F1;
+				border-bottom: 1px solid #e6e9f1;
 				.t1 {
 					width: 180rpx;
 					font-size: 24rpx;
@@ -373,7 +382,7 @@
 					color: #666666;
 					background: #f5f6f8;
 					padding-left: 20rpx;
-					border-right: 1px solid #E6E9F1;
+					border-right: 1px solid #e6e9f1;
 				}
 				.t2 {
 					padding-left: 20rpx;
@@ -384,56 +393,56 @@
 			}
 		}
 	}
-	.management-sb{
+	.management-sb {
 		position: relative;
 		width: 742rpx;
 		height: 372rpx;
 	}
-	.statement{
+	.statement {
 		padding-left: 22rpx;
 		margin-top: 24rpx;
 		margin-bottom: 30rpx;
-		.iconfont{
+		.iconfont {
 			font-size: 24rpx;
-			color: #646F78;
+			color: #646f78;
 		}
-		.t1{
+		.t1 {
 			font-size: 22rpx;
 			color: #666666;
 			text-decoration: underline;
 			margin-left: 7rpx;
 		}
 	}
-	.more{
-		.t1{
+	.more {
+		.t1 {
 			margin-top: 24rpx;
 			margin-bottom: 30rpx;
 			margin-left: 30rpx;
 			font-size: 24rpx;
 			color: #333333;
 			font-weight: bold;
-			text{
-				color: #08D;
+			text {
+				color: #08d;
 				text-decoration: underline;
 			}
 		}
-		.im{
+		.im {
 			width: 708rpx;
 			height: 276rpx;
 			margin: 30rpx auto 0;
 			display: block;
 		}
 	}
-	.business-bggg{
+	.business-bggg {
 		position: absolute;
 		top: 202rpx;
 		right: 10px;
 		width: 492rpx;
 		height: 120rpx;
 		z-index: 11;
-		background-color: #FFFFFF;
+		background-color: #ffffff;
 	}
-	.business-information-bg{
+	.business-information-bg {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -442,7 +451,7 @@
 		background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/96cbfc4ddc64ada99ec68f024bafc90a.png') no-repeat center;
 		background-size: cover;
 	}
-	.relation-bg{
+	.relation-bg {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -451,7 +460,7 @@
 		background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/f470ef652366af89f3ed11bf16cfa509.png') no-repeat center;
 		background-size: cover;
 	}
-	.management-bg{
+	.management-bg {
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -460,7 +469,7 @@
 		background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/bf55efd3a01f42aa0e4db70214afd730.png') no-repeat center;
 		background-size: cover;
 	}
-	.bg{
+	.bg {
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -471,43 +480,42 @@
 		border-radius: 0px;
 		padding: 0;
 		margin: 0;
-		&::after{
+		&::after {
 			border: none;
 		}
 	}
-	.login-bar{
+	.login-bar {
 		position: fixed;
 		bottom: 0;
 		left: 0;
 		width: 100%;
 		height: 70rpx;
-		background: #EDF4F9;
+		background: #edf4f9;
 		box-shadow: 0px 0px 4rpx 0px rgba(161, 175, 190, 0.5);
 		padding-left: 52rpx;
-		.btn{
+		.btn {
 			width: 170rpx;
 			height: 43rpx;
-			background: #FFFFFF;
+			background: #ffffff;
 			border-radius: 22rpx;
-			border: 1px solid #0088DD;
+			border: 1px solid #0088dd;
 			font-size: 26rpx;
-			color: #0088DD;
+			color: #0088dd;
 		}
-		.txt{
+		.txt {
 			font-size: 24rpx;
-			color: #0088DD;
+			color: #0088dd;
 			margin-left: 30rpx;
 		}
 	}
 }
 
-
-.dialog-box{
-	image{
+.dialog-box {
+	image {
 		width: 121rpx;
 		height: 121rpx;
 	}
-	text{
+	text {
 		padding-top: 38rpx;
 		padding-bottom: 55rpx;
 		font-size: 28rpx;

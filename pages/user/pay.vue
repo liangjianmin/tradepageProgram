@@ -53,10 +53,9 @@ export default {
 	onLoad(options) {},
 	methods: {
 		submit(){
-			uni.switchTab({
-				url:'/pages/user/index'
+			uni.navigateTo({
+				url:'/pages/user/suceess'
 			})
-			uni.setStorageSync('type', 1);
 		},
 		makePhoneCall() {
 			uni.makePhoneCall({

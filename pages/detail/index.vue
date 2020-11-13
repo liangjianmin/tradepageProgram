@@ -131,10 +131,25 @@
 					</view>
 					<view class="box row">
 						<view class="left row rowCenter verCenter">当年净利润</view>
-						<view class="right row rowCenter verCenter">212</view>
+						<view class="right xf row rowCenter verCenter"></view>
 					</view>
 				</view>
 				<view class="risk-error">
+					<view class="tit">风险提示</view>
+					<view class="list">
+						<view class="box row verCenter">
+							<view class="num row rowCenter verCenter">1</view>
+							<view class="txt">
+								<text>该企业无披露财务数据，注意企业兑付能力与采购能力。点击使用 </text>
+								<text @click="toUrl()" class="link" hover-class="none">企业信用报告</text> 
+								<text>获取更多内容。</text>
+							</view>
+						</view>
+						<view class="box row verCenter">
+							<view class="num row rowCenter verCenter">2</view>
+							<view class="txt">该企业为小（微）企业，注意企业兑付能力与采购能力</view>
+						</view>
+					</view>
 				</view>
 			</view>
 		</template>
@@ -240,6 +255,11 @@
 		},
 		onShow() {},
 		methods: {
+			toUrl(){
+				uni.navigateTo({
+					url:"/pages/user/buy"
+				})
+			},
 			register() {
 				uni.showModal({
 					title: '',

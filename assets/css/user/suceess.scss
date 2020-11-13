@@ -1,0 +1,31 @@
+.pay-success{
+	padding-top: 100rpx;
+	text-align: center;
+	.ico{
+		width: 128rpx;
+		height: 128rpx;
+		background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/d0fbc398b5ecb0e9bcf0d2a6f0290a35.png') no-repeat center;
+		background-size: cover;
+		margin: 0 auto;
+	}
+	.t1{
+		color: #14a633;
+		font-size: 40rpx;
+		margin-top: 20rpx;
+		margin-bottom: 52rpx;
+	}
+	.t2{
+		width: 539rpx;
+		color: #a6a6a6;
+		font-size: 24rpx;
+		margin: 0 auto 125rpx;
+	}
+	.btn{
+		width: 277rpx;
+		height: 81rpx;
+		border: 1px solid #92c759;
+		color: #92c759;
+		font-size: 24rpx;
+		margin: 0 auto;
+	}
+}
