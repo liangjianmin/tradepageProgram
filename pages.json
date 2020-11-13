@@ -75,12 +75,6 @@
 				"text": "资信查询"
 			},
 			{
-				"pagePath": "pages/index/indexs",
-				"iconPath": "static/i1.png",
-				"selectedIconPath": "static/i1s.png",
-				"text": "资信查询"
-			},
-			{
 				"pagePath": "pages/user/index",
 				"iconPath": "static/i2.png",
 				"selectedIconPath": "static/i2s.png",

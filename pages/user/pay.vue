@@ -39,7 +39,7 @@
 				<text class="t2">899</text>
 				<text class="t3">元</text>
 			</view>
-			<view class="btn row rowCenter verCenter">支付</view>
+			<view class="btn row rowCenter verCenter" @click="submit()">支付</view>
 		</view>
 	</view>
 </template>
@@ -52,6 +52,12 @@ export default {
 	},
 	onLoad(options) {},
 	methods: {
+		submit(){
+			uni.switchTab({
+				url:'/pages/user/index'
+			})
+			uni.setStorageSync('type', 1);
+		},
 		makePhoneCall() {
 			uni.makePhoneCall({
 				phoneNumber: '0755-23485853'

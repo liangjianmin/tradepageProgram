@@ -50,6 +50,7 @@
 				</navigator>
 			</view>
 		</view>
+		<navigator class="back-btn" url="/pages/index/index" open-type="switchTab" hover-class="none">首页</navigator>
 		<view class="risk"><image src="../../static/p2.png" mode="aspectFill"></image></view>
 		<view class="agreement row bothSide verCenter" v-if="flag">
 			<text class="txt" @click="toAgreement()">《用户协议》</text>

@@ -60,7 +60,7 @@
 				font-size: 24rpx;
 				color: #ffffff;
 			}
-			.history-bar{
+			.history-bar {
 				position: absolute;
 				top: 88rpx;
 				left: 0;
@@ -69,18 +69,18 @@
 				z-index: 99;
 				padding: 10rpx 5rpx;
 				box-shadow: -1px 2rpx 13rpx 4rpx rgba(187, 192, 195, 0.21);
-				.text{
+				.text {
 					padding-left: 10rpx;
 					padding-right: 10rpx;
 					margin-bottom: 10rpx;
-					text{
+					text {
 						font-size: 26rpx;
 						color: #333;
 					}
 				}
-				.list{
+				.list {
 					padding-left: 10rpx;
-					.box{
+					.box {
 						font-size: 26rpx;
 						color: #333;
 						line-height: 50rpx;
@@ -211,6 +211,13 @@
 			}
 		}
 	}
+	.back-btn {
+		position: fixed;
+		bottom: 362rpx;
+		right: 25rpx;
+		font-size: 30rpx;
+		color: #0088dd;
+	}
 	.risk {
 		position: fixed;
 		bottom: 79rpx;
@@ -252,7 +259,7 @@
 		.bg {
 			width: 683rpx;
 			height: 920rpx;
-			background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/24c0c5f9537fa11ecd667bd6872f97c4.png') #FFFFFF no-repeat center;
+			background: url('http://img.ichunt.com/images/ichunt/minProgram/trade/24c0c5f9537fa11ecd667bd6872f97c4.png') #ffffff no-repeat center;
 			background-size: cover;
 		}
 		.btn {

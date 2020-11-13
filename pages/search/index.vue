@@ -13,7 +13,7 @@
 			</view>
 		</view>
 		<view class="list">
-			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
+			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
 				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
 				<view class="row verCenter">
 					<text class="color1">非存续</text>
@@ -22,7 +22,7 @@
 				</view>
 				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
 			</navigator>
-			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
+			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
 				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
 				<view class="row verCenter">
 					<text class="color1">非存续</text>
@@ -31,7 +31,7 @@
 				</view>
 				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
 			</navigator>
-			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
+			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
 				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
 				<view class="row verCenter">
 					<text class="color2">存续</text>

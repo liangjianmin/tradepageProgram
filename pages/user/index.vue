@@ -112,7 +112,14 @@ export default {
 			isBvisible: 'none'
 		};
 	},
-	onLoad(options) {},
+	onLoad(options) {
+		let type=uni.getStorageSync('type');
+		if(type == 1){
+			this.active=1;
+			this.isAvisible = 'none';
+			this.isBvisible = 'block';
+		}
+	},
 	methods: {
 		makePhoneCall() {
 			uni.makePhoneCall({

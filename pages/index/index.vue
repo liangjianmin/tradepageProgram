@@ -14,7 +14,7 @@
 						<text class="arrow"></text>
 						<text class="txt">{{city}}</text>
 					</view>
-					<input @click="layer=!layer" type="text" class="inp" v-model="name" placeholder="请输入企业名称关键词" placeholder-style="color:#999999;" />
+					<input @click="layer=!layer" type="text" class="inp" v-model="name" placeholder="请输入企业名称关键词" value="" placeholder-style="color:#999999;" />
 				</view>
 				<view class="btn row rowCenter verCenter" @click="toSearch(name)">查一下</view>
 				<view class="history-bar" v-if="layer">
@@ -23,10 +23,10 @@
 						<text>全部删除</text>
 					</view>
 					<view class="list">
-						<view class="box">深圳市合家平安有限公司</view>
-						<view class="box">深圳市合家平安有限公司</view>
-						<view class="box">深圳市合家平安有限公司</view>
-						<view class="box">深圳市合家平安有限公司</view>
+						<view class="box">Shenzhen Huawei Technology Co.,Ltd.</view>
+						<view class="box">Xiaomi Inc.</view>
+						<view class="box">Shanghai XuSheng Financial Information Service Co.,Ltd.</view>
+						<view class="box">Xtep(China)Co.,Ltd.</view>
 					</view>
 				</view>
 			</view>
@@ -56,7 +56,7 @@
 						<text class="t2">销售收入：$64,451,260.00 （大型企业）</text>
 						<text class="t2">领导人：拉吉库马尔·希拉尼</text>
 					</navigator>
-					<navigator url="/pages/detail/index?type=2" class="box column" hover-class="none">
+					<navigator url="/pages/detail/index?type=1" class="box column" hover-class="none">
 						<text class="t1">Google Gdjadb inc.</text>
 						<view class="row verCenter">
 							<text class="color2">非存续</text>
@@ -101,6 +101,7 @@
 				</scroll-view>
 			</view>
 		</view>
+		<navigator class="back-btn" url="/pages/index/indexs" hover-class="none">历史记录</navigator>
 		<view class="risk"  @click="register()"><image src="../../static/p1.png" mode="aspectFill"></image></view>
 		<view class="agreement row bothSide verCenter" v-if="flag">
 			<text class="txt" @click="toAgreement()">《用户协议》</text>
@@ -127,8 +128,8 @@ import uniPopupDialog from '@/components/uni-popup/uni-popup-dialog.vue';
 export default {
 	data() {
 		return {
-			name: '',
-			city:'CHN 中国',
+			name: 'LAVA',
+			city:'印度 IND',
 			flag:true,
 			layer:false
 		};

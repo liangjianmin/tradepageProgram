@@ -141,7 +141,7 @@
 		<template v-else-if="type == 2">
 			<view class="business-information-sb">
 				<view class="business-information-bg">
-					<button class="bg" style="top: 33rpx;right: 33rpx;" open-type="getUserInfo" @getuserinfo="wxLogin" withCredentials="true"></button>
+					<navigator class="bg" url="/pages/user/login" hover-class="none" style="top: 33rpx;right: 33rpx;"></navigator>
 				</view>
 			</view>
 		</template>
@@ -150,7 +150,7 @@
 		<view v-if="type == 2">
 			<view class="relation-sb">
 				<view class="relation-bg">
-					<button class="bg" style="top: 31rpx;right: 37rpx;" open-type="getUserInfo" @getuserinfo="wxLogin"></button>
+					<navigator class="bg" style="top: 31rpx;right: 37rpx;" url="/pages/user/login" hover-class="none" ></navigator>
 				</view>
 			</view>
 		</view>
@@ -171,7 +171,7 @@
 		<template v-if="type == 2">
 			<view class="management-sb">
 				<view class="management-bg">
-					<button class="bg" style="top: 35rpx;right: 37rpx;" open-type="getUserInfo" @getuserinfo="wxLogin"></button>
+					<navigator class="bg" style="top: 35rpx;right: 37rpx;"  url="/pages/user/login" hover-class="none"></navigator>
 				</view>
 			</view>
 		</template>

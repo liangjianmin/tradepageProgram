@@ -23,8 +23,8 @@ import { API } from '@/util/api.js';
 export default {
 	data() {
 		return {
-			phone: '',
-			smsCode: '',
+			phone: '13456789875',
+			smsCode: '1234',
 			codetext: '获取验证码',
 			codeactive: false
 		};
@@ -110,6 +110,10 @@ export default {
 
 				return;
 			}
+			
+			uni.navigateTo({
+				url:'/pages/detail/index'
+			})
 		}
 	}
 };
