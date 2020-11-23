@@ -13,78 +13,79 @@
 			</view>
 		</view>
 		<view class="list">
-			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
+			<navigator class="box" url="/pages/detail/index?type=3" hover-class="none">
+				<text class="t1">Apple Inc.</text>
 				<view class="row verCenter">
-					<text class="color1">非存续</text>
+					<text class="color1">存续</text>
 					<text class="line"></text>
-					<text class="tt">印度 IND</text>
+					<text class="tt">美国USA</text>
 				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
+				<text class="t2">企业经营地址：1 Apple Park Way, Cupertino, CA, 95014, UNITED STATES</text>
+			</navigator>
+			<navigator class="box" url="/pages/detail/index?type=4" hover-class="none">
+				<text class="t1">Google LLC</text>
+				<view class="row verCenter">
+					<text class="color1">存续</text>
+					<text class="line"></text>
+					<text class="tt">美国USA</text>
+				</view>
+				<text class="t2">企业经营地址：1600 Amphitheatre Pkwy, Mountain View, CA, 94043, UNITED STATES</text>
 			</navigator>
 			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
-				<view class="row verCenter">
-					<text class="color1">非存续</text>
-					<text class="line"></text>
-					<text class="tt">印度 IND</text>
-				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
-			</navigator>
-			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
+				<text class="t1">Sample Company - Before Login</text>
 				<view class="row verCenter">
 					<text class="color2">存续</text>
 					<text class="line"></text>
-					<text class="tt">印度 IND</text>
+					<text class="tt">国家CON</text>
 				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
+				<text class="t2">企业经营地址：Address Address Address Address Address</text>
 			</navigator>
 			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
+				<text class="t1">Sample Company - After Login</text>
 				<view class="row verCenter">
 					<text class="color1">非存续</text>
 					<text class="line"></text>
-					<text class="tt">印度 IND</text>
+					<text class="tt">国家CON</text>
 				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
+				<text class="t2">企业经营地址：Address Address Address Address Address</text>
+			</navigator>
+			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
+				<text class="t1">Sample Company - Before Login</text>
+				<view class="row verCenter">
+					<text class="color2">存续</text>
+					<text class="line"></text>
+					<text class="tt">国家CON</text>
+				</view>
+				<text class="t2">企业经营地址：Address Address Address Address Address</text>
 			</navigator>
 			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
+				<text class="t1">Sample Company - After Login</text>
 				<view class="row verCenter">
 					<text class="color1">非存续</text>
 					<text class="line"></text>
-					<text class="tt">印度 IND</text>
+					<text class="tt">国家CON</text>
 				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
+				<text class="t2">企业经营地址：Address Address Address Address Address</text>
+			</navigator>
+			<navigator class="box" url="/pages/detail/index?type=2" hover-class="none">
+				<text class="t1">Sample Company - Before Login</text>
+				<view class="row verCenter">
+					<text class="color2">存续</text>
+					<text class="line"></text>
+					<text class="tt">国家CON</text>
+				</view>
+				<text class="t2">企业经营地址：Address Address Address Address Address</text>
 			</navigator>
 			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
+				<text class="t1">Sample Company - After Login</text>
 				<view class="row verCenter">
 					<text class="color1">非存续</text>
 					<text class="line"></text>
-					<text class="tt">印度 IND</text>
+					<text class="tt">国家CON</text>
 				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
+				<text class="t2">企业经营地址：Address Address Address Address Address</text>
 			</navigator>
-			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
-				<view class="row verCenter">
-					<text class="color1">非存续</text>
-					<text class="line"></text>
-					<text class="tt">印度 IND</text>
-				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
-			</navigator>
-			<navigator class="box" url="/pages/detail/index?type=1" hover-class="none">
-				<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATIONINTERNATIONINTERNATION</text>
-				<view class="row verCenter">
-					<text class="color1">非存续</text>
-					<text class="line"></text>
-					<text class="tt">印度 IND</text>
-				</view>
-				<text class="t2">企业经营地址：C-DDS/77,Sshubdbjejjnk Fhjdsj R jsjsj. 1587sj</text>
-			</navigator>
+			
 		</view>
 	</view>
 </template>

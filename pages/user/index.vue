@@ -18,21 +18,21 @@
 			</view>
 			<view class="collection" :style="{ display: isAvisible }">
 				<view class="box row bothSide">
-					<text class="text">LAVA INTERNATIONAL LIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATION</text>
+					<text class="text">Sample Company</text>
 					<view class="right-bar column">
 						<text class="t1">美国 USA</text>
 						<text class="iconfont iconqianjin"></text>
 					</view>
 				</view>
 				<view class="box row bothSide">
-					<text class="text">LAVA INTERNATIONAL LIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATION</text>
+					<text class="text">Sample Company</text>
 					<view class="right-bar column">
 						<text class="t1">美国 USA</text>
 						<text class="iconfont iconqianjin"></text>
 					</view>
 				</view>
 				<view class="box row bothSide">
-					<text class="text">LAVA INTERNATIONAL LIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATIONLIMITEDINTERNATION</text>
+					<text class="text">Sample Company</text>
 					<view class="right-bar column">
 						<text class="t1">美国 USA</text>
 						<text class="iconfont iconqianjin"></text>
@@ -45,7 +45,7 @@
 					<text class="t1">报告完成通知-访问官网wwww.xxxx.com【登录个人中心】-【订单管理】-【查阅报告】为获得更好的阅读体验，建议您使用个人电脑查阅</text>
 				</view>
 				<view class="box column">
-					<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATION…</text>
+					<text class="t1">Sample Company</text>
 					<text class="color1">深度信用风险报告</text>
 					<view class="row bothSide">
 						<text class="t2">订单完成时间：2020年6月12日</text>
@@ -53,7 +53,7 @@
 					</view>
 				</view>
 				<view class="box column">
-					<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATION…</text>
+					<text class="t1">Sample Company</text>
 					<text class="color2">深度信用风险报告</text>
 					<view class="row bothSide">
 						<text class="t2">订单完成时间：2020年6月12日</text>
@@ -64,7 +64,7 @@
 					</view>
 				</view>
 				<view class="box column">
-					<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATION…</text>
+					<text class="t1">Sample Company</text>
 					<text class="color2">深度信用风险报告</text>
 					<view class="row bothSide">
 						<text class="t2">订单完成时间：2020年6月12日</text>
@@ -75,7 +75,7 @@
 					</view>
 				</view>
 				<view class="box column">
-					<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATION…</text>
+					<text class="t1">Sample Company</text>
 					<text class="color2">深度信用风险报告</text>
 					<view class="row bothSide">
 						<text class="t2">订单完成时间：2020年6月12日</text>
@@ -86,7 +86,7 @@
 					</view>
 				</view>
 				<view class="box column">
-					<text class="t1">LAVA INTERNATIONAL LIMITED INTERNATION…</text>
+					<text class="t1">Sample Company</text>
 					<text class="color2">深度信用风险报告</text>
 					<view class="row bothSide">
 						<text class="t2">订单完成时间：2020年6月12日</text>

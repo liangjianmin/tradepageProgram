@@ -45,37 +45,36 @@
 			</view>
 			<view class="list">
 				<scroll-view scroll-y="true" style="height: 468rpx;">
-					<navigator url="/pages/detail/index?type=1" class="box column" hover-class="none">
-						<text class="t1">Google Gdjadb inc.</text>
+					<navigator url="/pages/detail/index?type=3" class="box column" hover-class="none">
+						<text class="t1">Apple Inc.</text>
 						<view class="row verCenter">
-							<text class="color1">非存续</text>
+							<text class="color1">存续</text>
 							<text class="line"></text>
-							<text class="tt">印度 IND</text>
+							<text class="tt">美国USA</text>
 						</view>
-						<text class="t2">员工数量：4500</text>
-						<text class="t2">销售收入：$64,451,260.00 （大型企业）</text>
-						<text class="t2">领导人：拉吉库马尔·希拉尼</text>
+						<text class="t2">员工数量：147000</text>
+						<text class="t2">销售收入：$ 274,515,000,000.00 (大型企业）</text>
+						<text class="t2">管理层：TIMOTHY D COOK - CEO+</text>
 					</navigator>
-					<navigator url="/pages/detail/index?type=1" class="box column" hover-class="none">
-						<text class="t1">Google Gdjadb inc.</text>
+					<navigator url="/pages/detail/index?type=4" class="box column" hover-class="none">
+						<text class="t1">Google LLC</text>
 						<view class="row verCenter">
-							<text class="color2">非存续</text>
+							<text class="color1">存续</text>
 							<text class="line"></text>
-							<text class="tt">印度 IND</text>
+							<text class="tt">美国USA</text>
 						</view>
 						<view class="row verCenter">
 							<text class="t3">国家 / 地区风险等级：</text>
-							<text class="level row rowCenter verCenter">8</text>
-							<text class="color">高风险</text>
-							<text class="iconfont icontishi"></text>
+							<text class="level row rowCenter verCenter" style="color:#5FC85E;">2</text>
+							<text class="color" style="color:#5FC85E;">低风险</text>
+						
 						</view>
 						<view class="row verCenter">
 							<text class="t3">国家 / 地区主权信用风险等级：</text>
-							<text class="level row rowCenter verCenter">C</text>
-							<text class="color">高风险</text>
-							<text class="iconfont icontishi"></text>
+							<text class="level row rowCenter verCenter" style="color:#5FC85E;">AAA</text>
+							<text class="color" style="color:#5FC85E;" >低风险</text>
 						</view>
-						<text class="t2">销售收入：$451,260.00 （小型企业）</text>
+						<text class="t2">母公司：Alphabet Inc.</text>
 					</navigator>
 					<navigator url="/pages/detail/index?type=1" class="box column" hover-class="none">
 						<text class="t1">Google Gdjadb inc.</text>

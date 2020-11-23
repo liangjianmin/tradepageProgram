@@ -1,9 +1,9 @@
 <template>
 	<view class="buy">
 		<view class="text  column">
-			<text class="t1">LAVA INTERNATIONAL LIMITED TIONAL</text>
+			<text class="t1">Sample Company</text>
 			<text class="t2">外贸护法企业编号：INDDUNSNUMBER</text>
-			<text class="t3">经营地址：C-7/227, Second Floor Sector-7, Rohini Delhi DL 110085 IN,India</text>
+			<text class="t3">经营地址：Address Address Address Address</text>
 			<view class="t4">
 				如对服务内容有任何疑问，请咨询
 				<text class="iconfont iconweikefu"></text>
