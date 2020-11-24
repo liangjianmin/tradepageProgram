@@ -157,8 +157,7 @@
                         <text class="t1">国家主权信用风险评级</text>
                         <view class="risk row verCenter">
                             <text class="num row rowCenter verCenter" style="color:#5FC85E;">AAA</text>
-                            <text class="tt" style="color:#5FC85E;">低风险</text>
-                            <text class="iconfont icontishi"></text>
+                            <text class="tt" style="color:#5FC85E;">低风险</text>                  
                         </view>
                     </view>
                 </view>
@@ -198,15 +197,15 @@
                         <text class="t1">国家主权信用风险评级</text>
                     </view>
                 </view>
-            </view>
-            <view class="bar column">
-                <text class="t1">经营地址</text>
-                <text class="t2">1600 Amphitheatre Pkwy, Mountain View, CA, 94043, UNITED STATES</text>
-                <text class="t1">注册地址</text>
-                <text class="t2">CDelaware</text>
-                <text class="t1">主营业务</text>
-                <text class="t2">定制电脑程序(SIC：7371)；电脑软件开发(SIC：73710301)；数据库信息检索(SIC：73759901)</text>
-            </view>
+				<view class="bar column">
+				    <text class="t1">经营地址</text>
+				    <text class="t2">1600 Amphitheatre Pkwy, Mountain View, CA, 94043, UNITED STATES</text>
+				    <text class="t1">注册地址</text>
+				    <text class="t2">CDelaware</text>
+				    <text class="t1">主营业务</text>
+				    <text class="t2">定制电脑程序(SIC：7371)；电脑软件开发(SIC：73710301)；数据库信息检索(SIC：73759901)</text>
+				</view>
+			</view>
         </template>
         <!-- 经营信息 -->
         <view class="title row rowCenter verCenter" style="width: 145rpx;">经营信息</view>
@@ -351,7 +350,12 @@
             </view>
         </template>
         <!-- 关联企业（47关联企业） -->
-        <view class="title row rowCenter verCenter" style="width: 290rpx;">关联企业</view>
+		<template v-if="type == 3">
+			<view class="title row rowCenter verCenter" style="width: 290rpx;">关联企业(86关联企业)</view>
+		</template>
+		<template v-else>
+			<view class="title row rowCenter verCenter" style="width: 145rpx;">关联企业</view>
+		</template>
         <view v-if="type == 2">
             <view class="relation-sb">
                 <view class="relation-bg">
@@ -396,7 +400,12 @@
             </view>
         </view>
         <!-- 管理层（2管理层） -->
-        <view class="title row rowCenter verCenter" style="width: 235rpx;">管理层</view>
+		<template v-if="type == 3">
+			<view class="title row rowCenter verCenter" style="width: 235rpx;">管理层(11管理层)</view>
+		</template>
+		<template v-else>
+			<view class="title row rowCenter verCenter" style="width: 145rpx;">管理层</view>	
+		</template>
         <template v-if="type == 2">
             <view class="management-sb">
                 <view class="management-bg">
@@ -535,7 +544,7 @@
                         <text class="t1 row verCenter">全名</text>
                         <text class="t2 row verCenter">KATE ADAMS</text>
                     </view>
-                    <view class="box2 row box">
+                    <view class="box2 row box" style="height: auto;">
                         <text class="t1 row verCenter">性别</text>
                         <text class="t2 row verCenter">-</text>
                         <text class="t1 row verCenter">岗位</text>
@@ -554,55 +563,55 @@
                         <text class="t2 row verCenter">Director</text>
                     </view>
                 </view>
-            </view>
-            <view class="wrap">
-                <view class="box1 row box">
-                    <text class="t1 row verCenter">全名</text>
-                    <text class="t2 row verCenter">Andrea Jung</text>
-                </view>
-                <view class="box2 row box">
-                    <text class="t1 row verCenter">性别</text>
-                    <text class="t2 row verCenter">-</text>
-                    <text class="t1 row verCenter">岗位</text>
-                    <text class="t2 row verCenter">Director</text>
-                </view>
-            </view>
-            <view class="wrap">
-                <view class="box1 row box">
-                    <text class="t1 row verCenter">全名</text>
-                    <text class="t2 row verCenter">R123</text>
-                </view>
-                <view class="box2 row box">
-                    <text class="t1 row verCenter">性别</text>
-                    <text class="t2 row verCenter">-</text>
-                    <text class="t1 row verCenter">岗位</text>
-                    <text class="t2 row verCenter">President</text>
-                </view>
-            </view>
-            <view class="wrap">
-                <view class="box1 row box">
-                    <text class="t1 row verCenter">全名</text>
-                    <text class="t2 row verCenter">Ronald D Sugar</text>
-                </view>
-                <view class="box2 row box">
-                    <text class="t1 row verCenter">性别</text>
-                    <text class="t2 row verCenter">-</text>
-                    <text class="t1 row verCenter">岗位</text>
-                    <text class="t2 row verCenter">Director</text>
-                </view>
-            </view>
-            <view class="wrap">
-                <view class="box1 row box">
-                    <text class="t1 row verCenter">全名</text>
-                    <text class="t2 row verCenter">Susan L Wagner</text>
-                </view>
-                <view class="box2 row box">
-                    <text class="t1 row verCenter">性别</text>
-                    <text class="t2 row verCenter">-</text>
-                    <text class="t1 row verCenter">岗位</text>
-                    <text class="t2 row verCenter">Director</text>
-                </view>
-            </view>
+				<view class="wrap">
+				    <view class="box1 row box">
+				        <text class="t1 row verCenter">全名</text>
+				        <text class="t2 row verCenter">Andrea Jung</text>
+				    </view>
+				    <view class="box2 row box">
+				        <text class="t1 row verCenter">性别</text>
+				        <text class="t2 row verCenter">-</text>
+				        <text class="t1 row verCenter">岗位</text>
+				        <text class="t2 row verCenter">Director</text>
+				    </view>
+				</view>
+				<view class="wrap">
+				    <view class="box1 row box">
+				        <text class="t1 row verCenter">全名</text>
+				        <text class="t2 row verCenter">R123</text>
+				    </view>
+				    <view class="box2 row box">
+				        <text class="t1 row verCenter">性别</text>
+				        <text class="t2 row verCenter">-</text>
+				        <text class="t1 row verCenter">岗位</text>
+				        <text class="t2 row verCenter">President</text>
+				    </view>
+				</view>
+				<view class="wrap">
+				    <view class="box1 row box">
+				        <text class="t1 row verCenter">全名</text>
+				        <text class="t2 row verCenter">Ronald D Sugar</text>
+				    </view>
+				    <view class="box2 row box">
+				        <text class="t1 row verCenter">性别</text>
+				        <text class="t2 row verCenter">-</text>
+				        <text class="t1 row verCenter">岗位</text>
+				        <text class="t2 row verCenter">Director</text>
+				    </view>
+				</view>
+				<view class="wrap">
+				    <view class="box1 row box">
+				        <text class="t1 row verCenter">全名</text>
+				        <text class="t2 row verCenter">Susan L Wagner</text>
+				    </view>
+				    <view class="box2 row box">
+				        <text class="t1 row verCenter">性别</text>
+				        <text class="t2 row verCenter">-</text>
+				        <text class="t1 row verCenter">岗位</text>
+				        <text class="t2 row verCenter">Director</text>
+				    </view>
+				</view>
+			</view>
         </template>
         <template v-if="type == 4">
             <view class="management ">
