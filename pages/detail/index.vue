@@ -151,12 +151,12 @@
                         <text class="t2">美国 USA</text>
                         <text class="t1">国家风险评级</text>
                         <view class="risk row verCenter">
-                            <text class="num row rowCenter verCenter" style="color:#5FC85E;">2</text>
+                            <text class="num row rowCenter verCenter" style="color:#5FC85E;border: 1px solid #5FC85E;">2</text>
                             <text class="tt" style="color:#5FC85E;">低风险</text>
                         </view>
                         <text class="t1">国家主权信用风险评级</text>
                         <view class="risk row verCenter">
-                            <text class="num row rowCenter verCenter" style="color:#5FC85E;">AAA</text>
+                            <text class="num row rowCenter verCenter" style="color:#5FC85E;border: 1px solid #5FC85E;">AAA</text>
                             <text class="tt" style="color:#5FC85E;">低风险</text>                  
                         </view>
                     </view>
@@ -191,7 +191,7 @@
                         <text class="t2">美国 USA</text>
                         <text class="t1">国家风险评级</text>
                         <view class="risk row verCenter">
-                            <text class="num row rowCenter verCenter" style="color:#5FC85E;">2</text>
+                            <text class="num row rowCenter verCenter" style="color:#5FC85E;border: 1px solid #5FC85E;">2</text>
                             <text class="tt" style="color:#5FC85E;">低风险</text>
                         </view>
                         <text class="t1">国家主权信用风险评级</text>

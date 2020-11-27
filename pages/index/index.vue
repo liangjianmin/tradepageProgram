@@ -65,13 +65,13 @@
 						</view>
 						<view class="row verCenter">
 							<text class="t3">国家 / 地区风险等级：</text>
-							<text class="level row rowCenter verCenter" style="color:#5FC85E;">2</text>
+							<text class="level row rowCenter verCenter">2</text>
 							<text class="color" style="color:#5FC85E;">低风险</text>
 						
 						</view>
 						<view class="row verCenter">
 							<text class="t3">国家 / 地区主权信用风险等级：</text>
-							<text class="level row rowCenter verCenter" style="color:#5FC85E;">AAA</text>
+							<text class="level row rowCenter verCenter">AAA</text>
 							<text class="color" style="color:#5FC85E;" >低风险</text>
 						</view>
 						<text class="t2">母公司：Alphabet Inc.</text>
